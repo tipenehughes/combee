@@ -1,0 +1,45 @@
+.navBar {
+    height: 10vh;
+    width: 100%;
+    padding: 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navFlexItem {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex: 1 1 50%;
+    height: 100%;
+}
+
+.navFlexItem:first-child {
+    justify-content: flex-start;
+}
+
+.navItem {
+    font-size: 1rem;
+    font-weight: 700;
+    color: #ffc728;
+}
+
+.logo {
+    font-size: 1.5rem;
+    letter-spacing: -4px;
+    color: #ffc728;
+}
+
+.logoImg {
+  height: 3rem;
+  width: 3rem;
+  margin-bottom: 0.2rem;
+  margin-left: 0.65rem;
+}
+
+.logoImg img {
+  height: 100%;
+  width: auto;
+  transform: rotate(30deg);
+}
