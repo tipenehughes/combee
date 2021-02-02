@@ -20,7 +20,6 @@ const Map = () => {
                 projectionConfig={{ scale: 150 }}
             >
                 <ZoomableGroup
-                    center={[10, 0]}
                     translateExtent={[
                         [0, 0],
                         [mapWidth, mapHeight],

@@ -13,6 +13,7 @@
     align-items: center;
     flex: 1 1 50%;
     height: 100%;
+    z-index: 1;
 }
 
 .navFlexItem:first-child {
@@ -32,14 +33,14 @@
 }
 
 .logoImg {
-  height: 3rem;
-  width: 3rem;
-  margin-bottom: 0.2rem;
-  margin-left: 0.65rem;
+    height: 3rem;
+    width: 3rem;
+    margin-bottom: 0.2rem;
+    margin-left: 0.65rem;
 }
 
 .logoImg img {
-  height: 100%;
-  width: auto;
-  transform: rotate(30deg);
+    height: 100%;
+    width: auto;
+    transform: rotate(30deg);
 }
