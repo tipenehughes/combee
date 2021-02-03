@@ -1,9 +1,15 @@
 import React from "react";
+import NavigationLink from "./NavigationLink/NavigationLink";
 import logo from "../../assets/img/logo.png";
-import bee from "../../assets/img/bee.svg";
 import styles from "./Navigation.module.css";
 
 const Navigation = ({ handleSetIsOpen, isOpen }) => {
+    const navLinks = [
+        "Whats the buzz?",
+        "How Can I Help?",
+        "Donate",
+        "Contact",
+    ];
     return (
         <div className={styles.navBar}>
             <div className={styles.navFlexItem}>
@@ -18,46 +24,16 @@ const Navigation = ({ handleSetIsOpen, isOpen }) => {
                 </div>
             </div>
             <div className={styles.navFlexItem}>
-                <div
-                    className={styles.navItem}
-                    style={{ color: isOpen && "#303030" }}
-                    onMouseOver={!isOpen && handleSetIsOpen}
-                >
-                    <div className={styles.bee}>
-                        <img src={bee} alt="" />
-                    </div>
-                    <p>Whats the buzz?</p>
-                </div>
-                <div
-                    className={styles.navItem}
-                    style={{ color: isOpen && "#303030" }}
-                    onMouseOver={!isOpen && handleSetIsOpen}
-                >
-                    <div className={styles.bee}>
-                        <img src={bee} alt="" />
-                    </div>
-                    <p>How can I help?</p>
-                </div>
-                <div
-                    className={styles.navItem}
-                    style={{ color: isOpen && "#303030" }}
-                    onMouseOver={!isOpen && handleSetIsOpen}
-                >
-                    <div className={styles.bee}>
-                        <img src={bee} alt="" />
-                    </div>
-                    <p>Donate</p>
-                </div>
-                <div
-                    className={styles.navItem}
-                    style={{ color: isOpen && "#303030" }}
-                    onMouseOver={!isOpen && handleSetIsOpen}
-                >
-                    <div className={styles.bee}>
-                        <img src={bee} alt="" />
-                    </div>
-                    <p>Contact</p>
-                </div>
+                {navLinks.map((link, i) => {
+                    return (
+                        <NavigationLink
+                            handleSetIsOpen={handleSetIsOpen}
+                            isOpen={isOpen}
+                            link={link}
+                            key={i}
+                        />
+                    );
+                })}
             </div>
         </div>
     );

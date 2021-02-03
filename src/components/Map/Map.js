@@ -1,4 +1,4 @@
-import React from "react";
+import React, { memo } from "react";
 import {
     ComposableMap,
     ZoomableGroup,
@@ -7,7 +7,7 @@ import {
 } from "react-simple-maps";
 import styles from "./Map.module.css";
 
-const Map = () => {
+const Map = ({ setTooltipContent }) => {
     const geoUrl =
         "https://raw.githubusercontent.com/zcreativelabs/react-simple-maps/master/topojson-maps/world-110m.json";
     const mapWidth = 800;
@@ -15,6 +15,7 @@ const Map = () => {
     return (
         <div className={styles.map}>
             <ComposableMap
+                data-tip=""
                 width={mapWidth}
                 height={mapHeight}
                 projectionConfig={{ scale: 150 }}
@@ -31,6 +32,13 @@ const Map = () => {
                                 <Geography
                                     key={geo.rsmKey}
                                     geography={geo}
+                                    onMouseEnter={() => {
+                                        const { NAME } = geo.properties;
+                                        setTooltipContent(`${NAME}`);
+                                    }}
+                                    onMouseLeave={() => {
+                                        setTooltipContent("");
+                                    }}
                                     style={{
                                         default: {
                                             fill: "#D6D6DA",
