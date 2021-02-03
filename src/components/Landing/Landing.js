@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import Navigation from "../Navigation/Navigation";
 import NavigationMenu from "../Navigation/NavigationMenu/NavigationMenu";
 import Map from "../Map/Map";
+import { AnimatePresence } from "framer-motion";
 import styles from "./Landing.module.css";
 
 const Landing = () => {
@@ -14,7 +15,9 @@ const Landing = () => {
     return (
         <div className={styles.landing}>
             <Navigation handleSetIsOpen={handleSetIsOpen} isOpen={isOpen} />
-            {isOpen && <NavigationMenu handleSetIsOpen={handleSetIsOpen}/>}
+            <AnimatePresence>
+                {isOpen && <NavigationMenu handleSetIsOpen={handleSetIsOpen} />}
+            </AnimatePresence>
             <Map />
         </div>
     );

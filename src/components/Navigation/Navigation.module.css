@@ -13,7 +13,6 @@
     align-items: center;
     flex: 1 1 50%;
     height: 100%;
-    z-index: 1;
 }
 
 .navFlexItem:first-child {
@@ -21,15 +20,19 @@
 }
 
 .navItem {
+    position: relative;
     font-size: 1rem;
     font-weight: 700;
     color: #ffc728;
+    z-index: 1;
+    cursor: pointer;
 }
 
 .logo {
     font-size: 1.5rem;
     letter-spacing: -4px;
     color: #ffc728;
+    z-index: 1;
 }
 
 .logoImg {
@@ -37,10 +40,24 @@
     width: 3rem;
     margin-bottom: 0.2rem;
     margin-left: 0.65rem;
+    z-index: 1;
 }
 
 .logoImg img {
     height: 100%;
     width: auto;
     transform: rotate(30deg);
+}
+
+.bee {
+    position: absolute;
+    top: -0.75rem;
+    left: -1rem;
+    width: 1rem;
+    height: 1rem;
+}
+
+.bee img {
+    width: 100%;
+    height: auto;
 }
