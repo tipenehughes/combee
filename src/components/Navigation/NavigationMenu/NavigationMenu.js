@@ -48,45 +48,54 @@ const NavigationMenu = ({
                             alt=""
                         />
                     </div>
-                    <div className={styles.textContainer}>
-                        <h3>{NavigationMenuData[menuContent].item1.h1}</h3>
-                        <p>
-                            {NavigationMenuData[menuContent].item1.p1}
-                        </p>
-                        <p>
-                        {NavigationMenuData[menuContent].item1.p2}
-                        </p>
-                    </div>
-                    <p></p>
+                    {NavigationMenuData[menuContent].item1.h1 && (
+                        <div className={styles.textContainer}>
+                            <h3>{NavigationMenuData[menuContent].item1.h1}</h3>
+                            <p>{NavigationMenuData[menuContent].item1.p1}</p>
+                            <p>{NavigationMenuData[menuContent].item1.p2}</p>
+                        </div>
+                    )}
                 </div>
+
                 <div className={styles.menuItem}>
                     <div className={styles.imageContainer}>
-                        <img src={NavigationMenuData[menuContent].item2.img} alt="" />
+                        <img
+                            src={NavigationMenuData[menuContent].item2.img}
+                            alt=""
+                        />
                     </div>
-                    <div className={styles.textContainer}>
-                        <h3>{NavigationMenuData[menuContent].item2.h1}</h3>
-                        <p>
-                        {NavigationMenuData[menuContent].item2.p1}
-                        </p>
-                        <p>
-                        {NavigationMenuData[menuContent].item2.p2}
-                        </p>                        
-                    </div>
-                    <p></p>
+                    {NavigationMenuData[menuContent].item2.h1 && (
+                        <div className={styles.textContainer}>
+                            <h3>{NavigationMenuData[menuContent].item2.h1}</h3>
+                            <p>{NavigationMenuData[menuContent].item2.p1}</p>
+                            <p>{NavigationMenuData[menuContent].item2.p2}</p>
+                        </div>
+                    )}
                 </div>
+
                 <div className={styles.menuItem}>
                     <div className={styles.imageContainer}>
-                        <img src={NavigationMenuData[menuContent].item3.img} alt="" />
+                        <img
+                            src={NavigationMenuData[menuContent].item3.img}
+                            alt=""
+                        />
                     </div>
-                    <div className={styles.textContainer}>
-                        <h3>{NavigationMenuData[menuContent].item3.h1}</h3>
-                        <p>
-                        {NavigationMenuData[menuContent].item3.p1}
-                        </p>
-                        <p>{NavigationMenuData[menuContent].item3.p2}</p>
-                    </div>
-                    <p></p>
+                    {NavigationMenuData[menuContent].item3.h1 && (
+                        <div className={styles.textContainer}>
+                            <h3>{NavigationMenuData[menuContent].item3.h1}</h3>
+                            <p>{NavigationMenuData[menuContent].item3.p1}</p>
+                            <p>{NavigationMenuData[menuContent].item3.p2}</p>
+                        </div>
+                    )}
                 </div>
+                {NavigationMenuData[menuContent].item4 && <div className={styles.menuItem}>
+                    <div className={styles.imageContainer}>
+                        <img
+                            src={NavigationMenuData[menuContent].item4.img}
+                            alt=""
+                        />
+                    </div>                    
+                </div>}
             </div>
         </motion.div>
     );

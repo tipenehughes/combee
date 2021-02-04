@@ -10,6 +10,8 @@ const Landing = () => {
     const [menuContent, setMenuContent] = useState("");
     console.log(menuContent);
 
+    console.log(content);
+
     console.log(isOpen);
 
     const handleSetIsOpen = () => {
@@ -33,7 +35,9 @@ const Landing = () => {
                 handleSetMenuContent={handleSetMenuContent}
             />
             <Map setTooltipContent={setContent} />
-            <ReactTooltip>{content}</ReactTooltip>
+            <ReactTooltip data-html={true} insecure={true} multiline={true}>
+                {content}
+            </ReactTooltip>
         </div>
     );
 };

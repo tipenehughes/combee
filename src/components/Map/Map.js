@@ -5,11 +5,11 @@ import {
     Geographies,
     Geography,
 } from "react-simple-maps";
+import data from "../../beedata.json";
 import styles from "./Map.module.css";
 
 const Map = ({ setTooltipContent }) => {
-    const geoUrl =
-        "https://raw.githubusercontent.com/zcreativelabs/react-simple-maps/master/topojson-maps/world-110m.json";
+    const geoUrl = data;
     const mapWidth = 800;
     const mapHeight = 370;
     return (
@@ -33,8 +33,18 @@ const Map = ({ setTooltipContent }) => {
                                     key={geo.rsmKey}
                                     geography={geo}
                                     onMouseEnter={() => {
-                                        const { NAME } = geo.properties;
-                                        setTooltipContent(`${NAME}`);
+                                        console.log(geo);
+                                        const {
+                                            NAME,
+                                            BEE_2007,
+                                            BEE_2017,
+                                            BEE_CHANGE,
+                                        } = geo.properties;
+                                        setTooltipContent(`
+                                        ${NAME} 
+                                        Bee Hive Count 2007 : ${BEE_2007}
+                                        Bee Hive Count 2017 : ${BEE_2017}
+                                        Percentage Change : ${BEE_CHANGE}`);
                                     }}
                                     onMouseLeave={() => {
                                         setTooltipContent("");
