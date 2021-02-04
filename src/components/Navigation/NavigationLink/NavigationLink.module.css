@@ -1,21 +1,32 @@
 .navItem {
-  position: relative;
-  font-size: 1rem;
-  font-weight: 700;
-  color: #ffc728;
-  z-index: 1;
-  cursor: pointer;
+    position: relative;
+    font-size: 1rem;
+    font-weight: 700;
+    color: #ffc728;
+    z-index: 1;
+    cursor: pointer;
+}
+
+.navItem:last-of-type {
+    display: grid;
+    place-items: center;
+    color: #303030;
+    height: 2rem;
+    width: 6rem;
+    background-color: #ffc728;
+    border-radius: 5px;
+    text-transform: uppercase;
 }
 
 .bee {
-  position: absolute;
-  top: -0.75rem;
-  left: -1rem;
-  width: 1rem;
-  height: 1rem;
+    position: absolute;
+    top: -0.75rem;
+    left: -1rem;
+    width: 1rem;
+    height: 1rem;
 }
 
 .bee img {
-  width: 100%;
-  height: auto;
+    width: 100%;
+    height: auto;
 }

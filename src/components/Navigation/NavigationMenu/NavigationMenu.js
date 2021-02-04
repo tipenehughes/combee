@@ -1,13 +1,15 @@
 import React from "react";
 import { motion } from "framer-motion";
 
-import item1 from "../../../assets/img/menuItems/Asset 8.svg";
-import item2 from "../../../assets/img/menuItems/Asset 11.svg";
-import item3 from "../../../assets/img/menuItems/Asset 1.svg";
+import NavigationMenuData from "./NavigationMenuData";
 
 import styles from "./NavigationMenu.module.css";
 
-const NavigationMenu = ({ handleSetIsOpen }) => {
+const NavigationMenu = ({
+    menuContent,
+    handleSetIsOpen,
+    handleSetIsClosed,
+}) => {
     const menuVariants = {
         hidden: {
             y: -200,
@@ -27,6 +29,7 @@ const NavigationMenu = ({ handleSetIsOpen }) => {
             },
         },
     };
+
     return (
         <motion.div
             className={styles.menu}
@@ -35,40 +38,52 @@ const NavigationMenu = ({ handleSetIsOpen }) => {
             animate="visible"
             exit="exit"
             key={"menu"}
-            onMouseLeave={handleSetIsOpen}
+            onMouseLeave={handleSetIsClosed}
         >
             <div className={styles.menuContainer}>
                 <div className={styles.menuItem}>
                     <div className={styles.imageContainer}>
-                        <img src={item1} alt="" />
+                        <img
+                            src={NavigationMenuData[menuContent].item1.img}
+                            alt=""
+                        />
                     </div>
                     <div className={styles.textContainer}>
-                        <h3>So, whats the big deal?</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui ex quisquam adipisci deserunt iure totam dolore non minima? A, obcaecati?</p>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe, quo? Facere optio placeat accusamus adipisci.</p>
+                        <h3>{NavigationMenuData[menuContent].item1.h1}</h3>
+                        <p>
+                            {NavigationMenuData[menuContent].item1.p1}
+                        </p>
+                        <p>
+                        {NavigationMenuData[menuContent].item1.p2}
+                        </p>
                     </div>
                     <p></p>
                 </div>
                 <div className={styles.menuItem}>
                     <div className={styles.imageContainer}>
-                        <img src={item2} alt="" />
+                        <img src={NavigationMenuData[menuContent].item2.img} alt="" />
                     </div>
                     <div className={styles.textContainer}>
-                        <h3>Okay, why are bees so important?</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae, vero!</p>
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non delectus, maxime porro ab minima odio.</p>
-                        <p>Lorem ipsum dolor sit amet.</p>
+                        <h3>{NavigationMenuData[menuContent].item2.h1}</h3>
+                        <p>
+                        {NavigationMenuData[menuContent].item2.p1}
+                        </p>
+                        <p>
+                        {NavigationMenuData[menuContent].item2.p2}
+                        </p>                        
                     </div>
                     <p></p>
                 </div>
                 <div className={styles.menuItem}>
                     <div className={styles.imageContainer}>
-                        <img src={item3} alt="" />
+                        <img src={NavigationMenuData[menuContent].item3.img} alt="" />
                     </div>
                     <div className={styles.textContainer}>
-                        <h3>All right, whats this site about?</h3>
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officiis et eaque magni consequuntur? Sint eaque suscipit, eveniet ab temporibus optio.</p>
-                        <p>Lorem ipsum dolor sit amet.</p>
+                        <h3>{NavigationMenuData[menuContent].item3.h1}</h3>
+                        <p>
+                        {NavigationMenuData[menuContent].item3.p1}
+                        </p>
+                        <p>{NavigationMenuData[menuContent].item3.p2}</p>
                     </div>
                     <p></p>
                 </div>

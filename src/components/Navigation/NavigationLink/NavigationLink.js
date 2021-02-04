@@ -2,20 +2,26 @@ import React from "react";
 import bee from "../../../assets/img/bee.svg";
 import styles from "./NavigationLink.module.css";
 
-const NavigationItem = ({ link, isOpen, handleSetIsOpen, key }) => {
+const NavigationLink = ({
+    link,
+    isOpen,
+    handleSetIsOpen,
+    handleSetMenuContent,
+    index,
+}) => {
     return (
         <div
             className={styles.navItem}
-            key={key}
+            key={index}
             style={{ color: isOpen && "#303030" }}
-            onMouseOver={!isOpen ? handleSetIsOpen : undefined}
+            onMouseEnter={() => {
+                handleSetIsOpen();
+                handleSetMenuContent(index);
+            }}
         >
-            <div className={styles.bee}>
-                <img src={bee} alt="" />
-            </div>
             <p>{link}</p>
         </div>
     );
 };
 
-export default NavigationItem;
+export default NavigationLink;
