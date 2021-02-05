@@ -8,7 +8,7 @@ import {
 import data from "../../beedata.json";
 import styles from "./Map.module.css";
 
-const Map = ({ setTooltipContent, handleSetIsClosed }) => {
+const Map = ({ content, setTooltipContent, handleSetIsClosed }) => {
     const geoUrl = data;
     const mapWidth = 800;
     const mapHeight = 370;
@@ -37,14 +37,16 @@ const Map = ({ setTooltipContent, handleSetIsClosed }) => {
                                         const {
                                             NAME,
                                             BEE_2007,
-                                            BEE_2017,
-                                            BEE_CHANGE,
+                                            BEE_2017,                                           
                                         } = geo.properties;
-                                        setTooltipContent(`
-                                        ${NAME} 
-                                        Bee Hive Count 2007 : ${BEE_2007}
-                                        Bee Hive Count 2017 : ${BEE_2017}
-                                        Percentage Change : ${BEE_CHANGE}`);
+                                        setTooltipContent({
+                                            ...content,
+                                            rsmKey: geo.rsmKey,
+                                            name: NAME,
+                                            "2007": BEE_2007,
+                                            "2017": BEE_2017,
+
+                                        });
                                     }}
                                     onMouseLeave={() => {
                                         setTooltipContent("");
