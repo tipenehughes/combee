@@ -46,3 +46,12 @@
     font-size: 1.2rem;
     margin-bottom: 0.5rem;
 }
+
+.donateImageContainer {
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.donateImageContainer img {
+    width: 10rem;
+    height: 10rem;
+}

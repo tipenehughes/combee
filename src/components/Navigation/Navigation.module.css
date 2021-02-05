@@ -25,6 +25,7 @@
     letter-spacing: -4px;
     color: #ffc728;
     z-index: 1;
+    cursor: pointer;
 }
 
 .logoImg {
@@ -33,6 +34,7 @@
     margin-bottom: 0.2rem;
     margin-left: 0.65rem;
     z-index: 1;
+    cursor: pointer;
 }
 
 .logoImg img {

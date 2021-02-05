@@ -1,5 +1,4 @@
 import React from "react";
-import bee from "../../../assets/img/bee.svg";
 import styles from "./NavigationLink.module.css";
 
 const NavigationLink = ({
@@ -7,6 +6,7 @@ const NavigationLink = ({
     isOpen,
     handleSetIsOpen,
     handleSetMenuContent,
+    handleSetIndex,
     index,
 }) => {
     return (
@@ -17,6 +17,7 @@ const NavigationLink = ({
             onMouseEnter={() => {
                 handleSetIsOpen();
                 handleSetMenuContent(index);
+                handleSetIndex(index);
             }}
         >
             <p>{link}</p>

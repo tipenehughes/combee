@@ -5,11 +5,7 @@ import NavigationMenuData from "./NavigationMenuData";
 
 import styles from "./NavigationMenu.module.css";
 
-const NavigationMenu = ({
-    menuContent,
-    handleSetIsOpen,
-    handleSetIsClosed,
-}) => {
+const NavigationMenu = ({ menuContent, index }) => {
     const menuVariants = {
         hidden: {
             y: -200,
@@ -38,11 +34,16 @@ const NavigationMenu = ({
             animate="visible"
             exit="exit"
             key={"menu"}
-            onMouseLeave={handleSetIsClosed}
         >
             <div className={styles.menuContainer}>
                 <div className={styles.menuItem}>
-                    <div className={styles.imageContainer}>
+                    <div
+                        className={`${styles.imageContainer} ${
+                            index === 2
+                                ? styles.donateImageContainer
+                                : undefined
+                        }`}
+                    >
                         <img
                             src={NavigationMenuData[menuContent].item1.img}
                             alt=""
@@ -58,7 +59,13 @@ const NavigationMenu = ({
                 </div>
 
                 <div className={styles.menuItem}>
-                    <div className={styles.imageContainer}>
+                    <div
+                        className={`${styles.imageContainer} ${
+                            index === 2
+                                ? styles.donateImageContainer
+                                : undefined
+                        }`}
+                    >
                         <img
                             src={NavigationMenuData[menuContent].item2.img}
                             alt=""
@@ -74,7 +81,13 @@ const NavigationMenu = ({
                 </div>
 
                 <div className={styles.menuItem}>
-                    <div className={styles.imageContainer}>
+                    <div
+                        className={`${styles.imageContainer} ${
+                            index === 2
+                                ? styles.donateImageContainer
+                                : undefined
+                        }`}
+                    >
                         <img
                             src={NavigationMenuData[menuContent].item3.img}
                             alt=""
@@ -88,14 +101,22 @@ const NavigationMenu = ({
                         </div>
                     )}
                 </div>
-                {NavigationMenuData[menuContent].item4 && <div className={styles.menuItem}>
-                    <div className={styles.imageContainer}>
-                        <img
-                            src={NavigationMenuData[menuContent].item4.img}
-                            alt=""
-                        />
-                    </div>                    
-                </div>}
+                {NavigationMenuData[menuContent].item4 && (
+                    <div className={styles.menuItem}>
+                        <div
+                            className={`${styles.imageContainer} ${
+                                index === 2
+                                    ? styles.donateImageContainer
+                                    : undefined
+                            }`}
+                        >
+                            <img
+                                src={NavigationMenuData[menuContent].item4.img}
+                                alt=""
+                            />
+                        </div>
+                    </div>
+                )}
             </div>
         </motion.div>
     );

@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import NavigationLink from "./NavigationLink/NavigationLink";
 import NavigationMenu from "./NavigationMenu/NavigationMenu";
 import { AnimatePresence } from "framer-motion";
@@ -12,11 +12,13 @@ const Navigation = ({
     handleSetIsClosed,
     handleSetMenuContent,
 }) => {
-    const navLinks = [
-        "Whats the buzz?",
-        "How Can I Help?",
-        "Donate",
-    ];
+    const [index, setIndex] = useState("");
+    console.log(index);
+
+    const handleSetIndex = (i) => {
+        return setIndex(i);
+    };
+    const navLinks = ["Whats the buzz?", "How Can I Help?", "Donate"];
     return (
         <>
             <div className={styles.navBar}>
@@ -40,6 +42,7 @@ const Navigation = ({
                                 link={link}
                                 handleSetMenuContent={handleSetMenuContent}
                                 index={i}
+                                handleSetIndex={handleSetIndex}
                             />
                         );
                     })}
@@ -51,6 +54,7 @@ const Navigation = ({
                         handleSetIsOpen={handleSetIsOpen}
                         handleSetIsClosed={handleSetIsClosed}
                         menuContent={menuContent}
+                        index={index}
                     />
                 )}
             </AnimatePresence>

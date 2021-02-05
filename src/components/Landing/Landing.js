@@ -8,17 +8,12 @@ const Landing = () => {
     const [isOpen, setIsOpen] = useState(false);
     const [content, setContent] = useState("");
     const [menuContent, setMenuContent] = useState("");
-    console.log(menuContent);
-
-    console.log(content);
-
-    console.log(isOpen);
 
     const handleSetIsOpen = () => {
-        return !isOpen && setIsOpen(true);
+        !isOpen && setIsOpen(true);
     };
-    const handleSetIsClosed = (e) => {
-        return isOpen && setIsOpen(false);
+    const handleSetIsClosed = () => {
+        isOpen && setIsOpen(false);
     };
 
     const handleSetMenuContent = (index) => {
@@ -34,7 +29,10 @@ const Landing = () => {
                 menuContent={menuContent}
                 handleSetMenuContent={handleSetMenuContent}
             />
-            <Map setTooltipContent={setContent} />
+            <Map
+                setTooltipContent={setContent}
+                handleSetIsClosed={handleSetIsClosed}
+            />
             <ReactTooltip data-html={true} insecure={true} multiline={true}>
                 {content}
             </ReactTooltip>

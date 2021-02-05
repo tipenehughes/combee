@@ -8,12 +8,12 @@ import {
 import data from "../../beedata.json";
 import styles from "./Map.module.css";
 
-const Map = ({ setTooltipContent }) => {
+const Map = ({ setTooltipContent, handleSetIsClosed }) => {
     const geoUrl = data;
     const mapWidth = 800;
     const mapHeight = 370;
     return (
-        <div className={styles.map}>
+        <div className={styles.map} onMouseOver={handleSetIsClosed}>
             <ComposableMap
                 data-tip=""
                 width={mapWidth}
