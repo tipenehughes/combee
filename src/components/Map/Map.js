@@ -37,15 +37,14 @@ const Map = ({ content, setTooltipContent, handleSetIsClosed }) => {
                                         const {
                                             NAME,
                                             BEE_2007,
-                                            BEE_2017,                                           
+                                            BEE_2019,
                                         } = geo.properties;
                                         setTooltipContent({
                                             ...content,
                                             rsmKey: geo.rsmKey,
                                             name: NAME,
-                                            "2007": BEE_2007,
-                                            "2017": BEE_2017,
-
+                                            2007: BEE_2007,
+                                            2019: BEE_2019,
                                         });
                                     }}
                                     onMouseLeave={() => {

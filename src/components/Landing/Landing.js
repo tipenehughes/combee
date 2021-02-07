@@ -25,6 +25,11 @@ const Landing = () => {
     const handleSetMenuContent = (index) => {
         return setMenuContent(index);
     };
+    const percentageChange = (prev, current) => {
+        return current
+            ? `${Math.ceil(((current - prev) / prev) * 100)}`
+            : "Data Unavailable";
+    };
 
     return (
         <div className={styles.landing}>
@@ -44,35 +49,53 @@ const Landing = () => {
                 className={styles.tooltip}
                 data-html="true"
                 multiline="true"
-                type="info"
+                // type="info"
             >
                 {content.rsmKey && (
                     <div>
                         <h3>{content.name}</h3>
                         <p>
                             Beehives in 2007:{" "}
-                            {content["2007"]
-                                ? content["2007"]
-                                : "Data Unavailable"}
+                            <span className={styles.number}>
+                                {content["2007"]
+                                    ? content["2007"]
+                                    : "Data Unavailable"}
+                            </span>
                         </p>
                         <p>
-                            Beehives in 2017:{" "}
-                            {content["2017"]
-                                ? content["2017"]
-                                : "Data Unavailable"}
+                            Beehives in 2019:{" "}
+                            <span className={styles.number}>
+                                {content["2019"]
+                                    ? content["2019"]
+                                    : "Data Unavailable"}
+                            </span>
                         </p>
                         <p>
-                            Percentage Increase:{" "}
-                            {Math.ceil(
-                                ((content["2017"] - content["2007"]) /
-                                    content["2007"]) *
-                                    100
-                            )}
-                            %
+                            Percentage change :{" "}
+                            <span
+                                className={styles.number}
+                                style={{
+                                    color:
+                                        percentageChange(
+                                            content["2007"],
+                                            content["2019"]
+                                        ) >= 0
+                                            ? "green"
+                                            : "red",
+                                }}
+                            >
+                                {percentageChange(
+                                    content["2007"],
+                                    content["2019"]
+                                )}
+                            </span>
                         </p>
                     </div>
                 )}
             </ReactTooltip>
+            <div className={styles.source}>
+                <small>Source: Food and Agriculture Orginization of the United Nations</small>
+            </div>
         </div>
     );
 };

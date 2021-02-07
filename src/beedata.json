@@ -34248,7 +34248,20 @@
   "ISO_A3": "AFG",
   "CONTINENT": "Asia",
   "REGION_UN": "Asia",
-  "SUBREGION": "Southern Asia"
+  "SUBREGION": "Southern Asia",
+  "BEE_2007": "",
+  "BEE_2008": "",
+  "BEE_2009": "",
+  "BEE_2010": "",
+  "BEE_2011": "",
+  "BEE_2012": "",
+  "BEE_2013": "",
+  "BEE_2014": "",
+  "BEE_2015": "",
+  "BEE_2016": "",
+  "BEE_2017": "",
+  "BEE_2018": "",
+  "BEE_2019": ""
   }
   },
   {
@@ -34284,7 +34297,20 @@
   "ISO_A3": "AGO",
   "CONTINENT": "Africa",
   "REGION_UN": "Africa",
-  "SUBREGION": "Middle Africa"
+  "SUBREGION": "Middle Africa",
+  "BEE_2007": 1100000,
+  "BEE_2008": 1100000,
+  "BEE_2009": 1100000,
+  "BEE_2010": 1150000,
+  "BEE_2011": 1150000,
+  "BEE_2012": 1150000,
+  "BEE_2013": 1150000,
+  "BEE_2014": 1150000,
+  "BEE_2015": 1153939,
+  "BEE_2016": 1158980,
+  "BEE_2017": 1157066,
+  "BEE_2018": 1158371,
+  "BEE_2019": 1159675
   }
   },
   {
@@ -34312,7 +34338,20 @@
   "ISO_A3": "ALB",
   "CONTINENT": "Europe",
   "REGION_UN": "Europe",
-  "SUBREGION": "Southern Europe"
+  "SUBREGION": "Southern Europe",
+  "BEE_2007": 171000,
+  "BEE_2008": 175000,
+  "BEE_2009": 203300,
+  "BEE_2010": 218000,
+  "BEE_2011": 233000,
+  "BEE_2012": 239081,
+  "BEE_2013": 246151,
+  "BEE_2014": 261452,
+  "BEE_2015": 271139,
+  "BEE_2016": 302962,
+  "BEE_2017": 289962,
+  "BEE_2018": 285455,
+  "BEE_2019": 288329
   }
   },
   {
@@ -34340,7 +34379,20 @@
   "ISO_A3": "ARE",
   "CONTINENT": "Asia",
   "REGION_UN": "Asia",
-  "SUBREGION": "Western Asia"
+  "SUBREGION": "Western Asia",
+  "BEE_2007": "",
+  "BEE_2008": "",
+  "BEE_2009": "",
+  "BEE_2010": "",
+  "BEE_2011": "",
+  "BEE_2012": "",
+  "BEE_2013": "",
+  "BEE_2014": "",
+  "BEE_2015": "",
+  "BEE_2016": "",
+  "BEE_2017": "",
+  "BEE_2018": "",
+  "BEE_2019": ""
   }
   },
   {
@@ -34377,7 +34429,20 @@
   "ISO_A3": "ARG",
   "CONTINENT": "South America",
   "REGION_UN": "Americas",
-  "SUBREGION": "South America"
+  "SUBREGION": "South America",
+  "BEE_2007": 2970000,
+  "BEE_2008": 2970000,
+  "BEE_2009": 2970000,
+  "BEE_2010": 2970000,
+  "BEE_2011": 2970000,
+  "BEE_2012": 2970000,
+  "BEE_2013": 3000000,
+  "BEE_2014": 2980000,
+  "BEE_2015": 2955217,
+  "BEE_2016": 2982322,
+  "BEE_2017": 2975942,
+  "BEE_2018": 2980484,
+  "BEE_2019": 2985026
   }
   },
   {
@@ -34405,7 +34470,20 @@
   "ISO_A3": "ARM",
   "CONTINENT": "Asia",
   "REGION_UN": "Asia",
-  "SUBREGION": "Western Asia"
+  "SUBREGION": "Western Asia",
+  "BEE_2007": 154631,
+  "BEE_2008": 169655,
+  "BEE_2009": 183056,
+  "BEE_2010": 196112,
+  "BEE_2011": 203647,
+  "BEE_2012": 209800,
+  "BEE_2013": 222189,
+  "BEE_2014": 241416,
+  "BEE_2015": 235214,
+  "BEE_2016": 245396,
+  "BEE_2017": 237303,
+  "BEE_2018": 236242,
+  "BEE_2019": 237941
   }
   },
   {
@@ -34466,7 +34544,20 @@
   "ISO_A3": "ATA",
   "CONTINENT": "Antarctica",
   "REGION_UN": "Antarctica",
-  "SUBREGION": "Antarctica"
+  "SUBREGION": "Antarctica",
+  "BEE_2007": "",
+  "BEE_2008": "",
+  "BEE_2009": "",
+  "BEE_2010": "",
+  "BEE_2011": "",
+  "BEE_2012": "",
+  "BEE_2013": "",
+  "BEE_2014": "",
+  "BEE_2015": "",
+  "BEE_2016": "",
+  "BEE_2017": "",
+  "BEE_2018": "",
+  "BEE_2019": ""
   }
   },
   {
@@ -34490,7 +34581,20 @@
   "ISO_A3": "ATF",
   "CONTINENT": "Seven seas (open ocean)",
   "REGION_UN": "Seven seas (open ocean)",
-  "SUBREGION": "Seven seas (open ocean)"
+  "SUBREGION": "Seven seas (open ocean)",
+  "BEE_2007": "",
+  "BEE_2008": "",
+  "BEE_2009": "",
+  "BEE_2010": "",
+  "BEE_2011": "",
+  "BEE_2012": "",
+  "BEE_2013": "",
+  "BEE_2014": "",
+  "BEE_2015": "",
+  "BEE_2016": "",
+  "BEE_2017": "",
+  "BEE_2018": "",
+  "BEE_2019": ""
   }
   },
   {
@@ -34521,7 +34625,20 @@
   "ISO_A3": "AUS",
   "CONTINENT": "Oceania",
   "REGION_UN": "Oceania",
-  "SUBREGION": "Australia and New Zealand"
+  "SUBREGION": "Australia and New Zealand",
+  "BEE_2007": 368000,
+  "BEE_2008": 360000,
+  "BEE_2009": 340000,
+  "BEE_2010": 330000,
+  "BEE_2011": 240000,
+  "BEE_2012": 230000,
+  "BEE_2013": 521081,
+  "BEE_2014": 520000,
+  "BEE_2015": 440626,
+  "BEE_2016": 356871,
+  "BEE_2017": 359610,
+  "BEE_2018": 358710,
+  "BEE_2019": 357811
   }
   },
   {
@@ -34551,7 +34668,20 @@
   "ISO_A3": "AUT",
   "CONTINENT": "Europe",
   "REGION_UN": "Europe",
-  "SUBREGION": "Western Europe"
+  "SUBREGION": "Western Europe",
+  "BEE_2007": 298000,
+  "BEE_2008": 300000,
+  "BEE_2009": 330000,
+  "BEE_2010": 367583,
+  "BEE_2011": 368183,
+  "BEE_2012": 376485,
+  "BEE_2013": 382638,
+  "BEE_2014": 376121,
+  "BEE_2015": 347100,
+  "BEE_2016": 354100,
+  "BEE_2017": 353300,
+  "BEE_2018": 372900,
+  "BEE_2019": 372900
   }
   },
   {
@@ -34587,7 +34717,20 @@
   "ISO_A3": "AZE",
   "CONTINENT": "Asia",
   "REGION_UN": "Asia",
-  "SUBREGION": "Western Asia"
+  "SUBREGION": "Western Asia",
+  "BEE_2007": 115618,
+  "BEE_2008": 126362,
+  "BEE_2009": 142528,
+  "BEE_2010": 193225,
+  "BEE_2011": 212651,
+  "BEE_2012": 225355,
+  "BEE_2013": 238358,
+  "BEE_2014": 243046,
+  "BEE_2015": 251233,
+  "BEE_2016": 260094,
+  "BEE_2017": 271682,
+  "BEE_2018": 500980,
+  "BEE_2019": 542817
   }
   },
   {
@@ -34613,7 +34756,20 @@
   "ISO_A3": "BDI",
   "CONTINENT": "Africa",
   "REGION_UN": "Africa",
-  "SUBREGION": "Eastern Africa"
+  "SUBREGION": "Eastern Africa",
+  "BEE_2007": 125303,
+  "BEE_2008": 202669,
+  "BEE_2009": 240063,
+  "BEE_2010": 257312,
+  "BEE_2011": 313485,
+  "BEE_2012": 390120,
+  "BEE_2013": 240853,
+  "BEE_2014": 203339,
+  "BEE_2015": 186000,
+  "BEE_2016": 194413,
+  "BEE_2017": 209278,
+  "BEE_2018": 217927,
+  "BEE_2019": 224823
   }
   },
   {
@@ -34641,7 +34797,20 @@
   "ISO_A3": "BEL",
   "CONTINENT": "Europe",
   "REGION_UN": "Europe",
-  "SUBREGION": "Western Europe"
+  "SUBREGION": "Western Europe",
+  "BEE_2007": 29500,
+  "BEE_2008": 29500,
+  "BEE_2009": 30000,
+  "BEE_2010": 30000,
+  "BEE_2011": 31000,
+  "BEE_2012": 31500,
+  "BEE_2013": 31500,
+  "BEE_2014": 32000,
+  "BEE_2015": 32329,
+  "BEE_2016": 32877,
+  "BEE_2017": 33314,
+  "BEE_2018": "",
+  "BEE_2019": ""
   }
   },
   {
@@ -34669,7 +34838,20 @@
   "ISO_A3": "BEN",
   "CONTINENT": "Africa",
   "REGION_UN": "Africa",
-  "SUBREGION": "Western Africa"
+  "SUBREGION": "Western Africa",
+  "BEE_2007": "",
+  "BEE_2008": "",
+  "BEE_2009": "",
+  "BEE_2010": "",
+  "BEE_2011": "",
+  "BEE_2012": "",
+  "BEE_2013": "",
+  "BEE_2014": "",
+  "BEE_2015": "",
+  "BEE_2016": "",
+  "BEE_2017": "",
+  "BEE_2018": "",
+  "BEE_2019": ""
   }
   },
   {
@@ -34698,7 +34880,20 @@
   "ISO_A3": "BFA",
   "CONTINENT": "Africa",
   "REGION_UN": "Africa",
-  "SUBREGION": "Western Africa"
+  "SUBREGION": "Western Africa",
+  "BEE_2007": "",
+  "BEE_2008": "",
+  "BEE_2009": "",
+  "BEE_2010": "",
+  "BEE_2011": "",
+  "BEE_2012": "",
+  "BEE_2013": "",
+  "BEE_2014": "",
+  "BEE_2015": "",
+  "BEE_2016": "",
+  "BEE_2017": "",
+  "BEE_2018": "",
+  "BEE_2019": ""
   }
   },
   {
@@ -34724,7 +34919,20 @@
   "ISO_A3": "BGD",
   "CONTINENT": "Asia",
   "REGION_UN": "Asia",
-  "SUBREGION": "Southern Asia"
+  "SUBREGION": "Southern Asia",
+  "BEE_2007": "",
+  "BEE_2008": "",
+  "BEE_2009": "",
+  "BEE_2010": "",
+  "BEE_2011": "",
+  "BEE_2012": "",
+  "BEE_2013": "",
+  "BEE_2014": "",
+  "BEE_2015": "",
+  "BEE_2016": "",
+  "BEE_2017": "",
+  "BEE_2018": "",
+  "BEE_2019": ""
   }
   },
   {
@@ -34753,7 +34961,20 @@
   "ISO_A3": "BGR",
   "CONTINENT": "Europe",
   "REGION_UN": "Europe",
-  "SUBREGION": "Eastern Europe"
+  "SUBREGION": "Eastern Europe",
+  "BEE_2007": 718822,
+  "BEE_2008": 652586,
+  "BEE_2009": 624965,
+  "BEE_2010": 613262,
+  "BEE_2011": 547676,
+  "BEE_2012": 529117,
+  "BEE_2013": 541564,
+  "BEE_2014": 577303,
+  "BEE_2015": 588379,
+  "BEE_2016": 747434,
+  "BEE_2017": 754105,
+  "BEE_2018": 765772,
+  "BEE_2019": 783348
   }
   },
   {
@@ -34789,7 +35010,20 @@
   "ISO_A3": "BHS",
   "CONTINENT": "North America",
   "REGION_UN": "Americas",
-  "SUBREGION": "Caribbean"
+  "SUBREGION": "Caribbean",
+  "BEE_2007": "",
+  "BEE_2008": "",
+  "BEE_2009": "",
+  "BEE_2010": "",
+  "BEE_2011": "",
+  "BEE_2012": "",
+  "BEE_2013": "",
+  "BEE_2014": "",
+  "BEE_2015": "",
+  "BEE_2016": "",
+  "BEE_2017": "",
+  "BEE_2018": "",
+  "BEE_2019": ""
   }
   },
   {
@@ -34815,7 +35049,20 @@
   "ISO_A3": "BIH",
   "CONTINENT": "Europe",
   "REGION_UN": "Europe",
-  "SUBREGION": "Southern Europe"
+  "SUBREGION": "Southern Europe",
+  "BEE_2007": 310749,
+  "BEE_2008": 333850,
+  "BEE_2009": 347168,
+  "BEE_2010": 366571,
+  "BEE_2011": 381876,
+  "BEE_2012": 383946,
+  "BEE_2013": 392659,
+  "BEE_2014": 392348,
+  "BEE_2015": 393188,
+  "BEE_2016": 409887,
+  "BEE_2017": 404698,
+  "BEE_2018": 402630,
+  "BEE_2019": 423406
   }
   },
   {
@@ -34843,7 +35090,20 @@
   "ISO_A3": "BLR",
   "CONTINENT": "Europe",
   "REGION_UN": "Europe",
-  "SUBREGION": "Eastern Europe"
+  "SUBREGION": "Eastern Europe",
+  "BEE_2007": 208,
+  "BEE_2008": 213,
+  "BEE_2009": 215,
+  "BEE_2010": 225,
+  "BEE_2011": 223,
+  "BEE_2012": 223,
+  "BEE_2013": 217,
+  "BEE_2014": 219,
+  "BEE_2015": 218,
+  "BEE_2016": 215,
+  "BEE_2017": 207,
+  "BEE_2018": 207,
+  "BEE_2019": 211
   }
   },
   {
@@ -34869,7 +35129,20 @@
   "ISO_A3": "BLZ",
   "CONTINENT": "North America",
   "REGION_UN": "Americas",
-  "SUBREGION": "Central America"
+  "SUBREGION": "Central America",
+  "BEE_2007": 2150,
+  "BEE_2008": 2100,
+  "BEE_2009": 2200,
+  "BEE_2010": 2175,
+  "BEE_2011": 2200,
+  "BEE_2012": 2175,
+  "BEE_2013": 2175,
+  "BEE_2014": 2100,
+  "BEE_2015": 2009,
+  "BEE_2016": 1976,
+  "BEE_2017": 1981,
+  "BEE_2018": 1970,
+  "BEE_2019": 1958
   }
   },
   {
@@ -34897,7 +35170,20 @@
   "ISO_A3": "BOL",
   "CONTINENT": "South America",
   "REGION_UN": "Americas",
-  "SUBREGION": "South America"
+  "SUBREGION": "South America",
+  "BEE_2007": "",
+  "BEE_2008": "",
+  "BEE_2009": "",
+  "BEE_2010": "",
+  "BEE_2011": "",
+  "BEE_2012": "",
+  "BEE_2013": "",
+  "BEE_2014": "",
+  "BEE_2015": "",
+  "BEE_2016": "",
+  "BEE_2017": "",
+  "BEE_2018": "",
+  "BEE_2019": ""
   }
   },
   {
@@ -34931,7 +35217,20 @@
   "ISO_A3": "BRA",
   "CONTINENT": "South America",
   "REGION_UN": "Americas",
-  "SUBREGION": "South America"
+  "SUBREGION": "South America",
+  "BEE_2007": 914000,
+  "BEE_2008": 994000,
+  "BEE_2009": 1025000,
+  "BEE_2010": 1000000,
+  "BEE_2011": 1094000,
+  "BEE_2012": 900000,
+  "BEE_2013": 938000,
+  "BEE_2014": 1020000,
+  "BEE_2015": 1011715,
+  "BEE_2016": 996805,
+  "BEE_2017": 995436,
+  "BEE_2018": 999276,
+  "BEE_2019": 1003116
   }
   },
   {
@@ -34956,7 +35255,20 @@
   "ISO_A3": "BRN",
   "CONTINENT": "Asia",
   "REGION_UN": "Asia",
-  "SUBREGION": "South-Eastern Asia"
+  "SUBREGION": "South-Eastern Asia",
+  "BEE_2007": "",
+  "BEE_2008": "",
+  "BEE_2009": "",
+  "BEE_2010": "",
+  "BEE_2011": "",
+  "BEE_2012": "",
+  "BEE_2013": "",
+  "BEE_2014": "",
+  "BEE_2015": "",
+  "BEE_2016": "",
+  "BEE_2017": "",
+  "BEE_2018": "",
+  "BEE_2019": ""
   }
   },
   {
@@ -34981,7 +35293,20 @@
   "ISO_A3": "BTN",
   "CONTINENT": "Asia",
   "REGION_UN": "Asia",
-  "SUBREGION": "Southern Asia"
+  "SUBREGION": "Southern Asia",
+  "BEE_2007": "",
+  "BEE_2008": "",
+  "BEE_2009": "",
+  "BEE_2010": "",
+  "BEE_2011": "",
+  "BEE_2012": "",
+  "BEE_2013": "",
+  "BEE_2014": "",
+  "BEE_2015": "",
+  "BEE_2016": "",
+  "BEE_2017": "",
+  "BEE_2018": "",
+  "BEE_2019": ""
   }
   },
   {
@@ -35008,7 +35333,20 @@
   "ISO_A3": "BWA",
   "CONTINENT": "Africa",
   "REGION_UN": "Africa",
-  "SUBREGION": "Southern Africa"
+  "SUBREGION": "Southern Africa",
+  "BEE_2007": "",
+  "BEE_2008": "",
+  "BEE_2009": "",
+  "BEE_2010": "",
+  "BEE_2011": "",
+  "BEE_2012": "",
+  "BEE_2013": "",
+  "BEE_2014": "",
+  "BEE_2015": "",
+  "BEE_2016": "",
+  "BEE_2017": "",
+  "BEE_2018": "",
+  "BEE_2019": ""
   }
   },
   {
@@ -35037,7 +35375,20 @@
   "ISO_A3": "CAF",
   "CONTINENT": "Africa",
   "REGION_UN": "Africa",
-  "SUBREGION": "Middle Africa"
+  "SUBREGION": "Middle Africa",
+  "BEE_2007":	1420000,
+"BEE_2008":	1450000,
+"BEE_2009":	1470000,
+"BEE_2010":	1500000,
+"BEE_2011":	1550000,
+"BEE_2012":	1560000,
+"BEE_2013":	1580000,
+"BEE_2014":	1580000,
+"BEE_2015":	1588266,
+"BEE_2016":	1641717,
+"BEE_2017":	1664934,
+"BEE_2018":	1687190,
+"BEE_2019":	1709447 
   }
   },
   {
@@ -35211,7 +35562,20 @@
   "ISO_A3": "CAN",
   "CONTINENT": "North America",
   "REGION_UN": "Americas",
-  "SUBREGION": "Northern America"
+  "SUBREGION": "Northern America",
+  "BEE_2007": 589254,
+  "BEE_2008": 570070,
+  "BEE_2009": 592120,
+  "BEE_2010": 620291,
+  "BEE_2011": 637920,
+  "BEE_2012": 690037,
+  "BEE_2013": 667397,
+  "BEE_2014": 696252,
+  "BEE_2015": 701434,
+  "BEE_2016": 694250,
+  "BEE_2017": 701033,
+  "BEE_2018": 707292,
+  "BEE_2019": 713551
   }
   },
   {
@@ -35238,7 +35602,20 @@
   "ISO_A3": "CHE",
   "CONTINENT": "Europe",
   "REGION_UN": "Europe",
-  "SUBREGION": "Western Europe"
+  "SUBREGION": "Western Europe",
+  "BEE_2007":	193355,
+"BEE_2008":	180026,
+"BEE_2009":	173814,
+"BEE_2010":	165045,
+"BEE_2011":	169391,
+"BEE_2012":	161447,
+"BEE_2013":	169391,
+"BEE_2014":	168415,
+"BEE_2015":	168965,
+"BEE_2016":	172680,
+"BEE_2017":	174986,
+"BEE_2018":	179704,
+"BEE_2019":	183170
   }
   },
   {
@@ -35273,7 +35650,20 @@
   "ISO_A3": "CHL",
   "CONTINENT": "South America",
   "REGION_UN": "Americas",
-  "SUBREGION": "South America"
+  "SUBREGION": "South America",
+  "BEE_2007":	456039,
+"BEE_2008":	487070,
+"BEE_2009":	485000,
+"BEE_2010":	485000,
+"BEE_2011":	485000,
+"BEE_2012":	485000,
+"BEE_2013":	485000,
+"BEE_2014":	315494,
+"BEE_2015":	409559,
+"BEE_2016":	452377,
+"BEE_2017":	449666,
+"BEE_2018":	447727,
+"BEE_2019":	445788
   }
   },
   {
@@ -35321,7 +35711,20 @@
   "ISO_A3": "CHN",
   "CONTINENT": "Asia",
   "REGION_UN": "Asia",
-  "SUBREGION": "Eastern Asia"
+  "SUBREGION": "Eastern Asia",
+  "BEE_2007":	8573050,
+"BEE_2008":	8771200,
+"BEE_2009":	8827150,
+"BEE_2010":	8897730,
+"BEE_2011":	8953870,
+"BEE_2012":	8987204,
+"BEE_2013":	9020000,
+"BEE_2014":	9075000,
+"BEE_2015":	9129858,
+"BEE_2016":	9158029,
+"BEE_2017":	9175674,
+"BEE_2018":	9204665,
+"BEE_2019":	9230940
   }
   },
   {
@@ -35350,7 +35753,20 @@
   "ISO_A3": "CIV",
   "CONTINENT": "Africa",
   "REGION_UN": "Africa",
-  "SUBREGION": "Western Africa"
+  "SUBREGION": "Western Africa",
+  "BEE_2007": "",
+  "BEE_2008": "",
+  "BEE_2009": "",
+  "BEE_2010": "",
+  "BEE_2011": "",
+  "BEE_2012": "",
+  "BEE_2013": "",
+  "BEE_2014": "",
+  "BEE_2015": "",
+  "BEE_2016": "",
+  "BEE_2017": "",
+  "BEE_2018": "",
+  "BEE_2019": ""
   }
   },
   {
@@ -35381,7 +35797,20 @@
   "ISO_A3": "CMR",
   "CONTINENT": "Africa",
   "REGION_UN": "Africa",
-  "SUBREGION": "Middle Africa"
+  "SUBREGION": "Middle Africa",
+  "BEE_2007": 312000,
+  "BEE_2008": 313000,
+  "BEE_2009": 314000,
+  "BEE_2010": 315000,
+  "BEE_2011": 315000,
+  "BEE_2012": 316000,
+  "BEE_2013": 315500,
+  "BEE_2014": 314000,
+  "BEE_2015": 313081,
+  "BEE_2016": 316889,
+  "BEE_2017": 317260,
+  "BEE_2018": 317715,
+  "BEE_2019": 318170
   }
   },
   {
@@ -35415,7 +35844,20 @@
   "ISO_A3": "COD",
   "CONTINENT": "Africa",
   "REGION_UN": "Africa",
-  "SUBREGION": "Middle Africa"
+  "SUBREGION": "Middle Africa",
+  "BEE_2007": "",
+  "BEE_2008": "",
+  "BEE_2009": "",
+  "BEE_2010": "",
+  "BEE_2011": "",
+  "BEE_2012": "",
+  "BEE_2013": "",
+  "BEE_2014": "",
+  "BEE_2015": "",
+  "BEE_2016": "",
+  "BEE_2017": "",
+  "BEE_2018": "",
+  "BEE_2019": ""
   }
   },
   {
@@ -35444,7 +35886,20 @@
   "ISO_A3": "COG",
   "CONTINENT": "Africa",
   "REGION_UN": "Africa",
-  "SUBREGION": "Middle Africa"
+  "SUBREGION": "Middle Africa",
+  "BEE_2007": "",
+  "BEE_2008": "",
+  "BEE_2009": "",
+  "BEE_2010": "",
+  "BEE_2011": "",
+  "BEE_2012": "",
+  "BEE_2013": "",
+  "BEE_2014": "",
+  "BEE_2015": "",
+  "BEE_2016": "",
+  "BEE_2017": "",
+  "BEE_2018": "",
+  "BEE_2019": ""
   }
   },
   {
@@ -35474,7 +35929,20 @@
   "ISO_A3": "COL",
   "CONTINENT": "South America",
   "REGION_UN": "Americas",
-  "SUBREGION": "South America"
+  "SUBREGION": "South America",
+  "BEE_2007":	115000,
+"BEE_2008":	115000,
+"BEE_2009":	115000,
+"BEE_2010":	115000,
+"BEE_2011":	115000,
+"BEE_2012":	120000,
+"BEE_2013":	120000,
+"BEE_2014":	120000,
+"BEE_2015":	116002,
+"BEE_2016":	111744,
+"BEE_2017":	111337,
+"BEE_2018":	111367,
+"BEE_2019":	111558
   }
   },
   {
@@ -35501,7 +35969,20 @@
   "ISO_A3": "CRI",
   "CONTINENT": "North America",
   "REGION_UN": "Americas",
-  "SUBREGION": "Central America"
+  "SUBREGION": "Central America",
+  "BEE_2007":	38000,
+"BEE_2008":	38000,
+"BEE_2009":	38100,
+"BEE_2010":	40894,
+"BEE_2011":	44193,
+"BEE_2012":	43270,
+"BEE_2013":	45372,
+"BEE_2014":	45904,
+"BEE_2015":	37910,
+"BEE_2016":	37910,
+"BEE_2017":	37910,
+"BEE_2018":	39376,
+"BEE_2019":	39376
   }
   },
   {
@@ -35525,7 +36006,20 @@
   "ISO_A3": "CUB",
   "CONTINENT": "North America",
   "REGION_UN": "Americas",
-  "SUBREGION": "Caribbean"
+  "SUBREGION": "Caribbean",
+  "BEE_2007":	140900,
+"BEE_2008":	147900,
+"BEE_2009":	148800,
+"BEE_2010":	154700,
+"BEE_2011":	161200,
+"BEE_2012":	163600,
+"BEE_2013":	164000,
+"BEE_2014":	169700,
+"BEE_2015":	171800,
+"BEE_2016":	184000,
+"BEE_2017":	184400,
+"BEE_2018":	191500,
+"BEE_2019":	184994
   }
   },
   {
@@ -35550,7 +36044,20 @@
   "ISO_A3": "-99",
   "CONTINENT": "Asia",
   "REGION_UN": "Asia",
-  "SUBREGION": "Western Asia"
+  "SUBREGION": "Western Asia",
+  "BEE_2007":	45000,
+"BEE_2008":	40000,
+"BEE_2009":	44000,
+"BEE_2010":	40466,
+"BEE_2011":	48153,
+"BEE_2012":	38000,
+"BEE_2013":	40778,
+"BEE_2014":	42505,
+"BEE_2015":	46529,
+"BEE_2016":	43143,
+"BEE_2017":	49616,
+"BEE_2018":	51219,
+"BEE_2019":	57445
   }
   },
   {
@@ -35575,7 +36082,20 @@
   "ISO_A3": "CYP",
   "CONTINENT": "Asia",
   "REGION_UN": "Asia",
-  "SUBREGION": "Western Asia"
+  "SUBREGION": "Western Asia",
+  "BEE_2007": "",
+  "BEE_2008": "",
+  "BEE_2009": "",
+  "BEE_2010": "",
+  "BEE_2011": "",
+  "BEE_2012": "",
+  "BEE_2013": "",
+  "BEE_2014": "",
+  "BEE_2015": "",
+  "BEE_2016": "",
+  "BEE_2017": "",
+  "BEE_2018": "",
+  "BEE_2019": ""
   }
   },
   {
@@ -35602,7 +36122,20 @@
   "ISO_A3": "CZE",
   "CONTINENT": "Europe",
   "REGION_UN": "Europe",
-  "SUBREGION": "Eastern Europe"
+  "SUBREGION": "Eastern Europe",
+  "BEE_2007":	520084,
+"BEE_2008":	461086,
+"BEE_2009":	497946,
+"BEE_2010":	528186,
+"BEE_2011":	565419,
+"BEE_2012":	540705,
+"BEE_2013":	533040,
+"BEE_2014":	588060,
+"BEE_2015":	576534,
+"BEE_2016":	662253,
+"BEE_2017":	637553,
+"BEE_2018":	631811,
+"BEE_2019":	642825
   }
   },
   {
@@ -35636,7 +36169,20 @@
   "ISO_A3": "DEU",
   "CONTINENT": "Europe",
   "REGION_UN": "Europe",
-  "SUBREGION": "Western Europe"
+  "SUBREGION": "Western Europe",
+  "BEE_2007":	669999,
+"BEE_2008":	691689,
+"BEE_2009":	694851,
+"BEE_2010":	685441,
+"BEE_2011":	695052,
+"BEE_2012":	698714,
+"BEE_2013":	708775,
+"BEE_2014":	741461,
+"BEE_2015":	771851,
+"BEE_2016":	746399,
+"BEE_2017":	659311,
+"BEE_2018":	"",
+"BEE_2019":	""
   }
   },
   {
@@ -35663,7 +36209,20 @@
   "ISO_A3": "DJI",
   "CONTINENT": "Africa",
   "REGION_UN": "Africa",
-  "SUBREGION": "Eastern Africa"
+  "SUBREGION": "Eastern Africa",
+  "BEE_2007": "",
+  "BEE_2008": "",
+  "BEE_2009": "",
+  "BEE_2010": "",
+  "BEE_2011": "",
+  "BEE_2012": "",
+  "BEE_2013": "",
+  "BEE_2014": "",
+  "BEE_2015": "",
+  "BEE_2016": "",
+  "BEE_2017": "",
+  "BEE_2018": "",
+  "BEE_2019": ""
   }
   },
   {
@@ -35695,7 +36254,20 @@
   "ISO_A3": "DNK",
   "CONTINENT": "Europe",
   "REGION_UN": "Europe",
-  "SUBREGION": "Northern Europe"
+  "SUBREGION": "Northern Europe",
+  "BEE_2007": "",
+  "BEE_2008": "",
+  "BEE_2009": "",
+  "BEE_2010": "",
+  "BEE_2011": "",
+  "BEE_2012": "",
+  "BEE_2013": "",
+  "BEE_2014": "",
+  "BEE_2015": "",
+  "BEE_2016": "",
+  "BEE_2017": "",
+  "BEE_2018": "",
+  "BEE_2019": ""
   }
   },
   {
@@ -35720,7 +36292,20 @@
   "ISO_A3": "DOM",
   "CONTINENT": "North America",
   "REGION_UN": "Americas",
-  "SUBREGION": "Caribbean"
+  "SUBREGION": "Caribbean",
+  "BEE_2007":	93000,
+"BEE_2008":	93000,
+"BEE_2009":	93000,
+"BEE_2010":	93000,
+"BEE_2011":	93000,
+"BEE_2012":	93500,
+"BEE_2013":	94000,
+"BEE_2014":	94500,
+"BEE_2015":	94828,
+"BEE_2016":	94362,
+"BEE_2017":	94524,
+"BEE_2018":	94639,
+"BEE_2019":	94755
   }
   },
   {
@@ -35751,7 +36336,20 @@
   "ISO_A3": "DZA",
   "CONTINENT": "Africa",
   "REGION_UN": "Africa",
-  "SUBREGION": "Northern Africa"
+  "SUBREGION": "Northern Africa",
+  "BEE_2007": 440000,
+  "BEE_2008": 400000,
+  "BEE_2009": 400000,
+  "BEE_2010": 400000,
+  "BEE_2011": 400000,
+  "BEE_2012": 400000,
+  "BEE_2013": 400000,
+  "BEE_2014": 400000,
+  "BEE_2015": 411956,
+  "BEE_2016": 420084,
+  "BEE_2017": 414493,
+  "BEE_2018": 417889,
+  "BEE_2019": 420411
   }
   },
   {
@@ -35777,7 +36375,20 @@
   "ISO_A3": "ECU",
   "CONTINENT": "South America",
   "REGION_UN": "Americas",
-  "SUBREGION": "South America"
+  "SUBREGION": "South America",
+  "BEE_2007":	45000,
+"BEE_2008":	45000,
+"BEE_2009":	45000,
+"BEE_2010":	45000,
+"BEE_2011":	45000,
+"BEE_2012":	45500,
+"BEE_2013":	46000,
+"BEE_2014":	46000,
+"BEE_2015":	46049,
+"BEE_2016":	46585,
+"BEE_2017":	46621,
+"BEE_2018":	46792,
+"BEE_2019":	46963
   }
   },
   {
@@ -35805,7 +36416,20 @@
   "ISO_A3": "EGY",
   "CONTINENT": "Africa",
   "REGION_UN": "Africa",
-  "SUBREGION": "Northern Africa"
+  "SUBREGION": "Northern Africa",
+  "BEE_2007":	1352109,
+"BEE_2008":	1277316,
+"BEE_2009":	1253229,
+"BEE_2010":	1139414,
+"BEE_2011":	1090955,
+"BEE_2012":	983041,
+"BEE_2013":	965258,
+"BEE_2014":	929626,
+"BEE_2015":	879975,
+"BEE_2016":	841307,
+"BEE_2017":	820516,
+"BEE_2018":	934517,
+"BEE_2019":	987705
   }
   },
   {
@@ -35832,7 +36456,20 @@
   "ISO_A3": "ERI",
   "CONTINENT": "Africa",
   "REGION_UN": "Africa",
-  "SUBREGION": "Eastern Africa"
+  "SUBREGION": "Eastern Africa",
+  "BEE_2007": "",
+  "BEE_2008": "",
+  "BEE_2009": "",
+  "BEE_2010": "",
+  "BEE_2011": "",
+  "BEE_2012": "",
+  "BEE_2013": "",
+  "BEE_2014": "",
+  "BEE_2015": "",
+  "BEE_2016": "",
+  "BEE_2017": "",
+  "BEE_2018": "",
+  "BEE_2019": ""
   }
   },
   {
@@ -35859,7 +36496,20 @@
   "ISO_A3": "ESP",
   "CONTINENT": "Europe",
   "REGION_UN": "Europe",
-  "SUBREGION": "Southern Europe"
+  "SUBREGION": "Southern Europe",
+  "BEE_2007":	2313454,
+"BEE_2008":	2388750,
+"BEE_2009":	2389950,
+"BEE_2010":	2438550,
+"BEE_2011":	2440030,
+"BEE_2012":	2429330,
+"BEE_2013":	2444000,
+"BEE_2014":	2557000,
+"BEE_2015":	2730000,
+"BEE_2016":	2834514,
+"BEE_2017":	2904971,
+"BEE_2018":	2965557,
+"BEE_2019":	""
   }
   },
   {
@@ -35885,7 +36535,20 @@
   "ISO_A3": "EST",
   "CONTINENT": "Europe",
   "REGION_UN": "Europe",
-  "SUBREGION": "Northern Europe"
+  "SUBREGION": "Northern Europe",
+  "BEE_2007":	38000,
+"BEE_2008":	29700,
+"BEE_2009":	24800,
+"BEE_2010":	27500,
+"BEE_2011":	28300,
+"BEE_2012":	26400,
+"BEE_2013":	41400,
+"BEE_2014":	39000,
+"BEE_2015":	46800,
+"BEE_2016":	47800,
+"BEE_2017":	49900,
+"BEE_2018":	48700,
+"BEE_2019":	49300
   }
   },
   {
@@ -35915,7 +36578,20 @@
   "ISO_A3": "ETH",
   "CONTINENT": "Africa",
   "REGION_UN": "Africa",
-  "SUBREGION": "Eastern Africa"
+  "SUBREGION": "Eastern Africa",
+  "BEE_2007":	4688010,
+"BEE_2008":	5146990,
+"BEE_2009":	4598226,
+"BEE_2010":	5130322,
+"BEE_2011":	4993815,
+"BEE_2012":	5207300,
+"BEE_2013":	5124228,
+"BEE_2014":	5885263,
+"BEE_2015":	5916100,
+"BEE_2016":	6189329,
+"BEE_2017":	6090804,
+"BEE_2018":	6082684,
+"BEE_2019":	6220182
   }
   },
   {
@@ -35942,7 +36618,20 @@
   "ISO_A3": "FIN",
   "CONTINENT": "Europe",
   "REGION_UN": "Europe",
-  "SUBREGION": "Northern Europe"
+  "SUBREGION": "Northern Europe",
+  "BEE_2007":	53000,
+"BEE_2008":	43000,
+"BEE_2009":	41000,
+"BEE_2010":	37000,
+"BEE_2011":	37000,
+"BEE_2012":	38000,
+"BEE_2013":	43000,
+"BEE_2014":	60000,
+"BEE_2015":	61000,
+"BEE_2016":	64000,
+"BEE_2017":	67000,
+"BEE_2018":	72300,
+"BEE_2019":	83900
   }
   },
   {
@@ -35978,7 +36667,20 @@
   "ISO_A3": "FJI",
   "CONTINENT": "Oceania",
   "REGION_UN": "Oceania",
-  "SUBREGION": "Melanesia"
+  "SUBREGION": "Melanesia",
+  "BEE_2007":	10900,
+"BEE_2008":	13200,
+"BEE_2009":	12101,
+"BEE_2010":	11892,
+"BEE_2011":	11698,
+"BEE_2012":	11617,
+"BEE_2013":	11681,
+"BEE_2014":	7320,
+"BEE_2015":	2110,
+"BEE_2016":	9194,
+"BEE_2017":	11,
+"BEE_2018":	13,
+"BEE_2019":	13
   }
   },
   {
@@ -36002,7 +36704,20 @@
   "ISO_A3": "FLK",
   "CONTINENT": "South America",
   "REGION_UN": "Americas",
-  "SUBREGION": "South America"
+  "SUBREGION": "South America",
+  "BEE_2007": "",
+  "BEE_2008": "",
+  "BEE_2009": "",
+  "BEE_2010": "",
+  "BEE_2011": "",
+  "BEE_2012": "",
+  "BEE_2013": "",
+  "BEE_2014": "",
+  "BEE_2015": "",
+  "BEE_2016": "",
+  "BEE_2017": "",
+  "BEE_2018": "",
+  "BEE_2019": ""
   }
   },
   {
@@ -36047,7 +36762,20 @@
   "ISO_A3": "FRA",
   "CONTINENT": "Europe",
   "REGION_UN": "Europe",
-  "SUBREGION": "Western Europe"
+  "SUBREGION": "Western Europe",
+  "BEE_2007":	1031089,
+  "BEE_2008":	1000095,
+  "BEE_2009":	1016631,
+  "BEE_2010":	981914,
+  "BEE_2011":	839966,
+  "BEE_2012":	820401,
+  "BEE_2013":	794733,
+  "BEE_2014":	767334,
+  "BEE_2015":	800834,
+  "BEE_2016":	803766,
+  "BEE_2017":	859462,
+  "BEE_2018":	868365,
+  "BEE_2019":	""
   }
   },
   {
@@ -36074,7 +36802,20 @@
   "ISO_A3": "GAB",
   "CONTINENT": "Africa",
   "REGION_UN": "Africa",
-  "SUBREGION": "Middle Africa"
+  "SUBREGION": "Middle Africa",
+  "BEE_2007": "",
+  "BEE_2008": "",
+  "BEE_2009": "",
+  "BEE_2010": "",
+  "BEE_2011": "",
+  "BEE_2012": "",
+  "BEE_2013": "",
+  "BEE_2014": "",
+  "BEE_2015": "",
+  "BEE_2016": "",
+  "BEE_2017": "",
+  "BEE_2018": "",
+  "BEE_2019": ""
   }
   },
   {
@@ -36106,7 +36847,20 @@
   "ISO_A3": "GBR",
   "CONTINENT": "Europe",
   "REGION_UN": "Europe",
-  "SUBREGION": "Northern Europe"
+  "SUBREGION": "Northern Europe",
+  "BEE_2007": "",
+  "BEE_2008": "",
+  "BEE_2009": "",
+  "BEE_2010": "",
+  "BEE_2011": "",
+  "BEE_2012": "",
+  "BEE_2013": "",
+  "BEE_2014": "",
+  "BEE_2015": "",
+  "BEE_2016": "",
+  "BEE_2017": "",
+  "BEE_2018": "",
+  "BEE_2019": ""
   }
   },
   {
@@ -36134,7 +36888,20 @@
   "ISO_A3": "GEO",
   "CONTINENT": "Asia",
   "REGION_UN": "Asia",
-  "SUBREGION": "Western Asia"
+  "SUBREGION": "Western Asia",
+  "BEE_2007":	146300,
+"BEE_2008":	183800,
+"BEE_2009":	206900,
+"BEE_2010":	256500,
+"BEE_2011":	311500,
+"BEE_2012":	328000,
+"BEE_2013":	347500,
+"BEE_2014":	398600,
+"BEE_2015":	190700,
+"BEE_2016":	197100,
+"BEE_2017":	205300,
+"BEE_2018":	240600,
+"BEE_2019":	257800
   }
   },
   {
@@ -36161,7 +36928,20 @@
   "ISO_A3": "GHA",
   "CONTINENT": "Africa",
   "REGION_UN": "Africa",
-  "SUBREGION": "Western Africa"
+  "SUBREGION": "Western Africa",
+  "BEE_2007": "",
+  "BEE_2008": "",
+  "BEE_2009": "",
+  "BEE_2010": "",
+  "BEE_2011": "",
+  "BEE_2012": "",
+  "BEE_2013": "",
+  "BEE_2014": "",
+  "BEE_2015": "",
+  "BEE_2016": "",
+  "BEE_2017": "",
+  "BEE_2018": "",
+  "BEE_2019": ""
   }
   },
   {
@@ -36191,7 +36971,20 @@
   "ISO_A3": "GIN",
   "CONTINENT": "Africa",
   "REGION_UN": "Africa",
-  "SUBREGION": "Western Africa"
+  "SUBREGION": "Western Africa",
+  "BEE_2007":	61000,
+"BEE_2008":	61500,
+"BEE_2009":	61500,
+"BEE_2010":	62000,
+"BEE_2011":	62500,
+"BEE_2012":	62500,
+"BEE_2013":	62500,
+"BEE_2014":	62500,
+"BEE_2015":	62337,
+"BEE_2016":	62337,
+"BEE_2017":	62222,
+"BEE_2018":	62304,
+"BEE_2019":	62386
   }
   },
   {
@@ -36216,7 +37009,20 @@
   "ISO_A3": "GMB",
   "CONTINENT": "Africa",
   "REGION_UN": "Africa",
-  "SUBREGION": "Western Africa"
+  "SUBREGION": "Western Africa",
+  "BEE_2007": "",
+  "BEE_2008": "",
+  "BEE_2009": "",
+  "BEE_2010": "",
+  "BEE_2011": "",
+  "BEE_2012": "",
+  "BEE_2013": "",
+  "BEE_2014": "",
+  "BEE_2015": "",
+  "BEE_2016": "",
+  "BEE_2017": "",
+  "BEE_2018": "",
+  "BEE_2019": ""
   }
   },
   {
@@ -36242,7 +37048,20 @@
   "ISO_A3": "GNB",
   "CONTINENT": "Africa",
   "REGION_UN": "Africa",
-  "SUBREGION": "Western Africa"
+  "SUBREGION": "Western Africa",
+  "BEE_2007":	6480,
+"BEE_2008":	6550,
+"BEE_2009":	6600,
+"BEE_2010":	6650,
+"BEE_2011":	6650,
+"BEE_2012":	6700,
+"BEE_2013":	6700,
+"BEE_2014":	6700,
+"BEE_2015":	6696,
+"BEE_2016":	6739,
+"BEE_2017":	6754,
+"BEE_2018":	6767,
+"BEE_2019":	6781
   }
   },
   {
@@ -36268,7 +37087,20 @@
   "ISO_A3": "GNQ",
   "CONTINENT": "Africa",
   "REGION_UN": "Africa",
-  "SUBREGION": "Middle Africa"
+  "SUBREGION": "Middle Africa",
+  "BEE_2007": "",
+  "BEE_2008": "",
+  "BEE_2009": "",
+  "BEE_2010": "",
+  "BEE_2011": "",
+  "BEE_2012": "",
+  "BEE_2013": "",
+  "BEE_2014": "",
+  "BEE_2015": "",
+  "BEE_2016": "",
+  "BEE_2017": "",
+  "BEE_2018": "",
+  "BEE_2019": ""
   }
   },
   {
@@ -36303,7 +37135,20 @@
   "ISO_A3": "GRC",
   "CONTINENT": "Europe",
   "REGION_UN": "Europe",
-  "SUBREGION": "Southern Europe"
+  "SUBREGION": "Southern Europe",
+  "BEE_2007":	1343037,
+"BEE_2008":	1374919,
+"BEE_2009":	1386286,
+"BEE_2010":	1422123,
+"BEE_2011":	1427436,
+"BEE_2012":	1455013,
+"BEE_2013":	1456711,
+"BEE_2014":	1528767,
+"BEE_2015":	1449368,
+"BEE_2016":	1488609,
+"BEE_2017":	1557375,
+"BEE_2018":	1600064,
+"BEE_2019":	""
   }
   },
   {
@@ -36327,7 +37172,20 @@
   "ISO_A3": "GRL",
   "CONTINENT": "North America",
   "REGION_UN": "Americas",
-  "SUBREGION": "Northern America"
+  "SUBREGION": "Northern America",
+  "BEE_2007": "",
+  "BEE_2008": "",
+  "BEE_2009": "",
+  "BEE_2010": "",
+  "BEE_2011": "",
+  "BEE_2012": "",
+  "BEE_2013": "",
+  "BEE_2014": "",
+  "BEE_2015": "",
+  "BEE_2016": "",
+  "BEE_2017": "",
+  "BEE_2018": "",
+  "BEE_2019": ""
   }
   },
   {
@@ -36356,7 +37214,20 @@
   "ISO_A3": "GTM",
   "CONTINENT": "North America",
   "REGION_UN": "Americas",
-  "SUBREGION": "Central America"
+  "SUBREGION": "Central America",
+  "BEE_2007":	120100,
+"BEE_2008":	120100,
+"BEE_2009":	122000,
+"BEE_2010":	93600,
+"BEE_2011":	95500,
+"BEE_2012":	104900,
+"BEE_2013":	109300,
+"BEE_2014":	98000,
+"BEE_2015":	118000,
+"BEE_2016":	106000,
+"BEE_2017":	98688,
+"BEE_2018":	88298,
+"BEE_2019":	82248
   }
   },
   {
@@ -36383,7 +37254,20 @@
   "ISO_A3": "GUY",
   "CONTINENT": "South America",
   "REGION_UN": "Americas",
-  "SUBREGION": "South America"
+  "SUBREGION": "South America",
+  "BEE_2007":	4100,
+"BEE_2008":	4150,
+"BEE_2009":	4150,
+"BEE_2010":	4200,
+"BEE_2011":	4200,
+"BEE_2012":	4250,
+"BEE_2013":	4250,
+"BEE_2014":	4240,
+"BEE_2015":	4255,
+"BEE_2016":	4303,
+"BEE_2017":	4324,
+"BEE_2018":	4344,
+"BEE_2019":	4364
   }
   },
   {
@@ -36411,7 +37295,20 @@
   "ISO_A3": "HND",
   "CONTINENT": "North America",
   "REGION_UN": "Americas",
-  "SUBREGION": "Central America"
+  "SUBREGION": "Central America",
+  "BEE_2007":	10600,
+"BEE_2008":	10500,
+"BEE_2009":	10600,
+"BEE_2010":	10600,
+"BEE_2011":	10650,
+"BEE_2012":	10650,
+"BEE_2013":	10650,
+"BEE_2014":	10650,
+"BEE_2015":	10600,
+"BEE_2016":	10600,
+"BEE_2017":	10600,
+"BEE_2018":	10527,
+"BEE_2019":	8328
   }
   },
   {
@@ -36440,7 +37337,20 @@
   "ISO_A3": "HRV",
   "CONTINENT": "Europe",
   "REGION_UN": "Europe",
-  "SUBREGION": "Southern Europe"
+  "SUBREGION": "Southern Europe",
+  "BEE_2007":	314000,
+"BEE_2008":	310000,
+"BEE_2009":	304000,
+"BEE_2010":	308000,
+"BEE_2011":	405000,
+"BEE_2012":	492000,
+"BEE_2013":	547300,
+"BEE_2014":	560400,
+"BEE_2015":	564700,
+"BEE_2016":	495800,
+"BEE_2017":	406407,
+"BEE_2018":	372002,
+"BEE_2019":	418657
   }
   },
   {
@@ -36465,7 +37375,20 @@
   "ISO_A3": "HTI",
   "CONTINENT": "North America",
   "REGION_UN": "Americas",
-  "SUBREGION": "Caribbean"
+  "SUBREGION": "Caribbean",
+  "BEE_2007":	27000,
+"BEE_2008":	27000,
+"BEE_2009":	27000,
+"BEE_2010":	27000,
+"BEE_2011":	27000,
+"BEE_2012":	27000,
+"BEE_2013":	27000,
+"BEE_2014":	27000,
+"BEE_2015":	27091,
+"BEE_2016":	27273,
+"BEE_2017":	27265,
+"BEE_2018":	27306,
+"BEE_2019":	27346
   }
   },
   {
@@ -36495,7 +37418,20 @@
   "ISO_A3": "HUN",
   "CONTINENT": "Europe",
   "REGION_UN": "Europe",
-  "SUBREGION": "Eastern Europe"
+  "SUBREGION": "Eastern Europe",
+  "BEE_2007":	493000,
+"BEE_2008":	553000,
+"BEE_2009":	421000,
+"BEE_2010":	432000,
+"BEE_2011":	610000,
+"BEE_2012":	729000,
+"BEE_2013":	678000,
+"BEE_2014":	745000,
+"BEE_2015":	773000,
+"BEE_2016":	772000,
+"BEE_2017":	816000,
+"BEE_2018":	844000,
+"BEE_2019":	""
   }
   },
   {
@@ -36584,7 +37520,20 @@
   "ISO_A3": "IDN",
   "CONTINENT": "Asia",
   "REGION_UN": "Asia",
-  "SUBREGION": "South-Eastern Asia"
+  "SUBREGION": "South-Eastern Asia",
+  "BEE_2007": "",
+  "BEE_2008": "",
+  "BEE_2009": "",
+  "BEE_2010": "",
+  "BEE_2011": "",
+  "BEE_2012": "",
+  "BEE_2013": "",
+  "BEE_2014": "",
+  "BEE_2015": "",
+  "BEE_2016": "",
+  "BEE_2017": "",
+  "BEE_2018": "",
+  "BEE_2019": ""
   }
   },
   {
@@ -36616,7 +37565,20 @@
   "ISO_A3": "IND",
   "CONTINENT": "Asia",
   "REGION_UN": "Asia",
-  "SUBREGION": "Southern Asia"
+  "SUBREGION": "Southern Asia",
+  "BEE_2007":	9800000,
+"BEE_2008":	10600000,
+"BEE_2009":	10600000,
+"BEE_2010":	11500000,
+"BEE_2011":	11500000,
+"BEE_2012":	11550000,
+"BEE_2013":	11600000,
+"BEE_2014":	11800000,
+"BEE_2015":	11928704,
+"BEE_2016":	11984816,
+"BEE_2017":	12077468,
+"BEE_2018":	12162400,
+"BEE_2019":	12247332
   }
   },
   {
@@ -36641,7 +37603,20 @@
   "ISO_A3": "IRL",
   "CONTINENT": "Europe",
   "REGION_UN": "Europe",
-  "SUBREGION": "Northern Europe"
+  "SUBREGION": "Northern Europe",
+  "BEE_2007": "",
+  "BEE_2008": "",
+  "BEE_2009": "",
+  "BEE_2010": "",
+  "BEE_2011": "",
+  "BEE_2012": "",
+  "BEE_2013": "",
+  "BEE_2014": "",
+  "BEE_2015": "",
+  "BEE_2016": "",
+  "BEE_2017": "",
+  "BEE_2018": "",
+  "BEE_2019": ""
   }
   },
   {
@@ -36674,7 +37649,20 @@
   "ISO_A3": "IRN",
   "CONTINENT": "Asia",
   "REGION_UN": "Asia",
-  "SUBREGION": "Southern Asia"
+  "SUBREGION": "Southern Asia",
+  "BEE_2007":	3665147,
+"BEE_2008":	3779044,
+"BEE_2009":	4373228,
+"BEE_2010":	5011767,
+"BEE_2011":	5172082,
+"BEE_2012":	5613259,
+"BEE_2013":	6644114,
+"BEE_2014":	6996366,
+"BEE_2015":	7393660,
+"BEE_2016":	6978155,
+"BEE_2017":	7199606,
+"BEE_2018":	7358163,
+"BEE_2019":	7516720
   }
   },
   {
@@ -36704,7 +37692,20 @@
   "ISO_A3": "IRQ",
   "CONTINENT": "Asia",
   "REGION_UN": "Asia",
-  "SUBREGION": "Western Asia"
+  "SUBREGION": "Western Asia",
+  "BEE_2007": "",
+  "BEE_2008": "",
+  "BEE_2009": "",
+  "BEE_2010": "",
+  "BEE_2011": "",
+  "BEE_2012": "",
+  "BEE_2013": "",
+  "BEE_2014": "",
+  "BEE_2015": "",
+  "BEE_2016": "",
+  "BEE_2017": "",
+  "BEE_2018": "",
+  "BEE_2019": ""
   }
   },
   {
@@ -36728,7 +37729,20 @@
   "ISO_A3": "ISL",
   "CONTINENT": "Europe",
   "REGION_UN": "Europe",
-  "SUBREGION": "Northern Europe"
+  "SUBREGION": "Northern Europe",
+  "BEE_2007": "",
+  "BEE_2008": "",
+  "BEE_2009": "",
+  "BEE_2010": "",
+  "BEE_2011": "",
+  "BEE_2012": "",
+  "BEE_2013": "",
+  "BEE_2014": "",
+  "BEE_2015": "",
+  "BEE_2016": "",
+  "BEE_2017": "",
+  "BEE_2018": "",
+  "BEE_2019": ""
   }
   },
   {
@@ -36758,7 +37772,20 @@
   "ISO_A3": "ISR",
   "CONTINENT": "Asia",
   "REGION_UN": "Asia",
-  "SUBREGION": "Western Asia"
+  "SUBREGION": "Western Asia",
+  "BEE_2007":	92000,
+"BEE_2008":	90000,
+"BEE_2009":	90000,
+"BEE_2010":	96000,
+"BEE_2011":	98000,
+"BEE_2012":	97000,
+"BEE_2013":	101000,
+"BEE_2014":	100000,
+"BEE_2015":	101000,
+"BEE_2016":	110000,
+"BEE_2017":	110000,
+"BEE_2018":	110000,
+"BEE_2019":	110000
   }
   },
   {
@@ -36798,7 +37825,20 @@
   "ISO_A3": "ITA",
   "CONTINENT": "Europe",
   "REGION_UN": "Europe",
-  "SUBREGION": "Southern Europe"
+  "SUBREGION": "Southern Europe",
+  "BEE_2007":	940000,
+"BEE_2008":	500000,
+"BEE_2009":	500000,
+"BEE_2010":	500000,
+"BEE_2011":	500000,
+"BEE_2012":	500000,
+"BEE_2013":	500000,
+"BEE_2014":	500000,
+"BEE_2015":	477447,
+"BEE_2016":	436750,
+"BEE_2017":	409538,
+"BEE_2018":	"",
+"BEE_2019":	""
   }
   },
   {
@@ -36822,7 +37862,20 @@
   "ISO_A3": "JAM",
   "CONTINENT": "North America",
   "REGION_UN": "Americas",
-  "SUBREGION": "Caribbean"
+  "SUBREGION": "Caribbean",
+  "BEE_2007":	25477,
+"BEE_2008":	28274,
+"BEE_2009":	31416,
+"BEE_2010":	34558,
+"BEE_2011":	38014,
+"BEE_2012":	41815,
+"BEE_2013":	45997,
+"BEE_2014":	50597,
+"BEE_2015":	51082,
+"BEE_2016":	52737,
+"BEE_2017":	54407,
+"BEE_2018":	56024,
+"BEE_2019":	57000
   }
   },
   {
@@ -36852,7 +37905,20 @@
   "ISO_A3": "JOR",
   "CONTINENT": "Asia",
   "REGION_UN": "Asia",
-  "SUBREGION": "Western Asia"
+  "SUBREGION": "Western Asia",
+  "BEE_2007":	45000,
+"BEE_2008":	40000,
+"BEE_2009":	37000,
+"BEE_2010":	43000,
+"BEE_2011":	42000,
+"BEE_2012":	45000,
+"BEE_2013":	45000,
+"BEE_2014":	39427,
+"BEE_2015":	38714,
+"BEE_2016":	40383,
+"BEE_2017":	42596,
+"BEE_2018":	44354,
+"BEE_2019":	45322
   }
   },
   {
@@ -36888,7 +37954,20 @@
   "ISO_A3": "JPN",
   "CONTINENT": "Asia",
   "REGION_UN": "Asia",
-  "SUBREGION": "Eastern Asia"
+  "SUBREGION": "Eastern Asia",
+  "BEE_2007":	184000,
+"BEE_2008":	184500,
+"BEE_2009":	185000,
+"BEE_2010":	187000,
+"BEE_2011":	187000,
+"BEE_2012":	190000,
+"BEE_2013":	190000,
+"BEE_2014":	190000,
+"BEE_2015":	191000,
+"BEE_2016":	191714,
+"BEE_2017":	192050,
+"BEE_2018":	192826,
+"BEE_2019":	193553
   }
   },
   {
@@ -36917,7 +37996,20 @@
   "ISO_A3": "KAZ",
   "CONTINENT": "Asia",
   "REGION_UN": "Asia",
-  "SUBREGION": "Central Asia"
+  "SUBREGION": "Central Asia",
+  "BEE_2007": "",
+  "BEE_2008": "",
+  "BEE_2009": "",
+  "BEE_2010": "",
+  "BEE_2011": "",
+  "BEE_2012": "",
+  "BEE_2013": "",
+  "BEE_2014": "",
+  "BEE_2015": "",
+  "BEE_2016": "",
+  "BEE_2017": "",
+  "BEE_2018": "",
+  "BEE_2019": ""
   }
   },
   {
@@ -36946,7 +38038,20 @@
   "ISO_A3": "KEN",
   "CONTINENT": "Africa",
   "REGION_UN": "Africa",
-  "SUBREGION": "Eastern Africa"
+  "SUBREGION": "Eastern Africa",
+  "BEE_2007":	2400000,
+"BEE_2008":	1950000,
+"BEE_2009":	1842496,
+"BEE_2010":	1459539,
+"BEE_2011":	1334023,
+"BEE_2012":	1801871,
+"BEE_2013":	1796283,
+"BEE_2014":	1427572,
+"BEE_2015":	1506494,
+"BEE_2016":	1445235,
+"BEE_2017":	1623028,
+"BEE_2018":	1533668,
+"BEE_2019":	1138152
   }
   },
   {
@@ -36973,7 +38078,20 @@
   "ISO_A3": "KGZ",
   "CONTINENT": "Asia",
   "REGION_UN": "Asia",
-  "SUBREGION": "Central Asia"
+  "SUBREGION": "Central Asia",
+  "BEE_2007":	80256,
+"BEE_2008":	80124,
+"BEE_2009":	84891,
+"BEE_2010":	90754,
+"BEE_2011":	91162,
+"BEE_2012":	89185,
+"BEE_2013":	90562,
+"BEE_2014":	93892,
+"BEE_2015":	103570,
+"BEE_2016":	108525,
+"BEE_2017":	111690,
+"BEE_2018":	118996,
+"BEE_2019":	130653
   }
   },
   {
@@ -37000,7 +38118,20 @@
   "ISO_A3": "KHM",
   "CONTINENT": "Asia",
   "REGION_UN": "Asia",
-  "SUBREGION": "South-Eastern Asia"
+  "SUBREGION": "South-Eastern Asia",
+  "BEE_2007": "",
+  "BEE_2008": "",
+  "BEE_2009": "",
+  "BEE_2010": "",
+  "BEE_2011": "",
+  "BEE_2012": "",
+  "BEE_2013": "",
+  "BEE_2014": "",
+  "BEE_2015": "",
+  "BEE_2016": "",
+  "BEE_2017": "",
+  "BEE_2018": "",
+  "BEE_2019": ""
   }
   },
   {
@@ -37025,7 +38156,20 @@
   "ISO_A3": "KOR",
   "CONTINENT": "Asia",
   "REGION_UN": "Asia",
-  "SUBREGION": "Eastern Asia"
+  "SUBREGION": "Eastern Asia",
+  "BEE_2007":	1889514,
+"BEE_2008":	1858574,
+"BEE_2009":	1988021,
+"BEE_2010":	1697847,
+"BEE_2011":	1531609,
+"BEE_2012":	1795197,
+"BEE_2013":	1756993,
+"BEE_2014":	1952962,
+"BEE_2015":	1962989,
+"BEE_2016":	2155180,
+"BEE_2017":	2265378,
+"BEE_2018":	2134864,
+"BEE_2019":	2141015
   }
   },
   {
@@ -37052,7 +38196,20 @@
   "ISO_A3": "-99",
   "CONTINENT": "Europe",
   "REGION_UN": "Europe",
-  "SUBREGION": "Southern Europe"
+  "SUBREGION": "Southern Europe",
+  "BEE_2007": "",
+  "BEE_2008": "",
+  "BEE_2009": "",
+  "BEE_2010": "",
+  "BEE_2011": "",
+  "BEE_2012": "",
+  "BEE_2013": "",
+  "BEE_2014": "",
+  "BEE_2015": "",
+  "BEE_2016": "",
+  "BEE_2017": "",
+  "BEE_2018": "",
+  "BEE_2019": ""
   }
   },
   {
@@ -37078,7 +38235,20 @@
   "ISO_A3": "KWT",
   "CONTINENT": "Asia",
   "REGION_UN": "Asia",
-  "SUBREGION": "Western Asia"
+  "SUBREGION": "Western Asia",
+  "BEE_2007": "",
+  "BEE_2008": "",
+  "BEE_2009": "",
+  "BEE_2010": "",
+  "BEE_2011": "",
+  "BEE_2012": "",
+  "BEE_2013": "",
+  "BEE_2014": "",
+  "BEE_2015": "",
+  "BEE_2016": "",
+  "BEE_2017": "",
+  "BEE_2018": "",
+  "BEE_2019": ""
   }
   },
   {
@@ -37106,7 +38276,20 @@
   "ISO_A3": "LAO",
   "CONTINENT": "Asia",
   "REGION_UN": "Asia",
-  "SUBREGION": "South-Eastern Asia"
+  "SUBREGION": "South-Eastern Asia",
+  "BEE_2007": "",
+  "BEE_2008": "",
+  "BEE_2009": "",
+  "BEE_2010": "",
+  "BEE_2011": "",
+  "BEE_2012": "",
+  "BEE_2013": "",
+  "BEE_2014": "",
+  "BEE_2015": "",
+  "BEE_2016": "",
+  "BEE_2017": "",
+  "BEE_2018": "",
+  "BEE_2019": ""
   }
   },
   {
@@ -37132,7 +38315,20 @@
   "ISO_A3": "LBN",
   "CONTINENT": "Asia",
   "REGION_UN": "Asia",
-  "SUBREGION": "Western Asia"
+  "SUBREGION": "Western Asia",
+  "BEE_2007":	115000,
+"BEE_2008":	124000,
+"BEE_2009":	134000,
+"BEE_2010":	163908,
+"BEE_2011":	206000,
+"BEE_2012":	206000,
+"BEE_2013":	200000,
+"BEE_2014":	200000,
+"BEE_2015":	241855,
+"BEE_2016":	297873,
+"BEE_2017":	357408,
+"BEE_2018":	407982,
+"BEE_2019":	355831
   }
   },
   {
@@ -37159,7 +38355,20 @@
   "ISO_A3": "LBR",
   "CONTINENT": "Africa",
   "REGION_UN": "Africa",
-  "SUBREGION": "Western Africa"
+  "SUBREGION": "Western Africa",
+  "BEE_2007": "",
+  "BEE_2008": "",
+  "BEE_2009": "",
+  "BEE_2010": "",
+  "BEE_2011": "",
+  "BEE_2012": "",
+  "BEE_2013": "",
+  "BEE_2014": "",
+  "BEE_2015": "",
+  "BEE_2016": "",
+  "BEE_2017": "",
+  "BEE_2018": "",
+  "BEE_2019": ""
   }
   },
   {
@@ -37189,7 +38398,20 @@
   "ISO_A3": "LBY",
   "CONTINENT": "Africa",
   "REGION_UN": "Africa",
-  "SUBREGION": "Northern Africa"
+  "SUBREGION": "Northern Africa",
+  "BEE_2007":	37000,
+"BEE_2008":	37000,
+"BEE_2009":	37000,
+"BEE_2010":	37000,
+"BEE_2011":	37000,
+"BEE_2012":	37000,
+"BEE_2013":	37000,
+"BEE_2014":	37000,
+"BEE_2015":	36998,
+"BEE_2016":	36767,
+"BEE_2017":	36800,
+"BEE_2018":	36787,
+"BEE_2019":	36774
   }
   },
   {
@@ -37213,7 +38435,20 @@
   "ISO_A3": "LKA",
   "CONTINENT": "Asia",
   "REGION_UN": "Asia",
-  "SUBREGION": "Southern Asia"
+  "SUBREGION": "Southern Asia",
+  "BEE_2007": "",
+  "BEE_2008": "",
+  "BEE_2009": "",
+  "BEE_2010": "",
+  "BEE_2011": "",
+  "BEE_2012": "",
+  "BEE_2013": "",
+  "BEE_2014": "",
+  "BEE_2015": "",
+  "BEE_2016": "",
+  "BEE_2017": "",
+  "BEE_2018": "",
+  "BEE_2019": ""
   }
   },
   {
@@ -37237,7 +38472,20 @@
   "ISO_A3": "LSO",
   "CONTINENT": "Africa",
   "REGION_UN": "Africa",
-  "SUBREGION": "Southern Africa"
+  "SUBREGION": "Southern Africa",
+  "BEE_2007": "",
+  "BEE_2008": "",
+  "BEE_2009": "",
+  "BEE_2010": "",
+  "BEE_2011": "",
+  "BEE_2012": "",
+  "BEE_2013": "",
+  "BEE_2014": "",
+  "BEE_2015": "",
+  "BEE_2016": "",
+  "BEE_2017": "",
+  "BEE_2018": "",
+  "BEE_2019": ""
   }
   },
   {
@@ -37265,7 +38513,20 @@
   "ISO_A3": "LTU",
   "CONTINENT": "Europe",
   "REGION_UN": "Europe",
-  "SUBREGION": "Northern Europe"
+  "SUBREGION": "Northern Europe",
+  "BEE_2007":	88300,
+"BEE_2008":	101400,
+"BEE_2009":	101600,
+"BEE_2010":	102600,
+"BEE_2011":	94000,
+"BEE_2012":	89800,
+"BEE_2013":	88300,
+"BEE_2014":	92100,
+"BEE_2015":	121658,
+"BEE_2016":	130331,
+"BEE_2017":	133508,
+"BEE_2018":	137796,
+"BEE_2019":	197956
   }
   },
   {
@@ -37291,7 +38552,20 @@
   "ISO_A3": "LUX",
   "CONTINENT": "Europe",
   "REGION_UN": "Europe",
-  "SUBREGION": "Western Europe"
+  "SUBREGION": "Western Europe",
+  "BEE_2007":	6279,
+"BEE_2008":	5635,
+"BEE_2009":	4939,
+"BEE_2010":	5174,
+"BEE_2011":	4642,
+"BEE_2012":	4292,
+"BEE_2013":	3510,
+"BEE_2014":	4880,
+"BEE_2015":	4810,
+"BEE_2016":	5660,
+"BEE_2017":	5266,
+"BEE_2018":	5928,
+"BEE_2019":	6702
   }
   },
   {
@@ -37319,7 +38593,20 @@
   "ISO_A3": "LVA",
   "CONTINENT": "Europe",
   "REGION_UN": "Europe",
-  "SUBREGION": "Northern Europe"
+  "SUBREGION": "Northern Europe",
+  "BEE_2007":	62,
+"BEE_2008":	53,
+"BEE_2009":	43,
+"BEE_2010":	35,
+"BEE_2011":	38,
+"BEE_2012":	48,
+"BEE_2013":	84,
+"BEE_2014":	86,
+"BEE_2015":	95,
+"BEE_2016":	93,
+"BEE_2017":	97,
+"BEE_2018":	96,
+"BEE_2019":	103
   }
   },
   {
@@ -37345,7 +38632,20 @@
   "ISO_A3": "MAR",
   "CONTINENT": "Africa",
   "REGION_UN": "Africa",
-  "SUBREGION": "Northern Africa"
+  "SUBREGION": "Northern Africa",
+  "BEE_2007":	350000,
+"BEE_2008":	350000,
+"BEE_2009":	355000,
+"BEE_2010":	360000,
+"BEE_2011":	360000,
+"BEE_2012":	365000,
+"BEE_2013":	370000,
+"BEE_2014":	375000,
+"BEE_2015":	379666,
+"BEE_2016":	385539,
+"BEE_2017":	392073,
+"BEE_2018":	396951,
+"BEE_2019":	401828
   }
   },
   {
@@ -37370,7 +38670,20 @@
   "ISO_A3": "MDA",
   "CONTINENT": "Europe",
   "REGION_UN": "Europe",
-  "SUBREGION": "Eastern Europe"
+  "SUBREGION": "Eastern Europe",
+  "BEE_2007":	102031,
+"BEE_2008":	98303,
+"BEE_2009":	98117,
+"BEE_2010":	101464,
+"BEE_2011":	105204,
+"BEE_2012":	111653,
+"BEE_2013":	110600,
+"BEE_2014":	115925,
+"BEE_2015":	124330,
+"BEE_2016":	135946,
+"BEE_2017":	148080,
+"BEE_2018":	163589,
+"BEE_2019":	178660
   }
   },
   {
@@ -37394,7 +38707,20 @@
   "ISO_A3": "MDG",
   "CONTINENT": "Africa",
   "REGION_UN": "Africa",
-  "SUBREGION": "Eastern Africa"
+  "SUBREGION": "Eastern Africa",
+  "BEE_2007":	131000,
+"BEE_2008":	131000,
+"BEE_2009":	132000,
+"BEE_2010":	132000,
+"BEE_2011":	133000,
+"BEE_2012":	134000,
+"BEE_2013":	133000,
+"BEE_2014":	134000,
+"BEE_2015":	134388,
+"BEE_2016":	134736,
+"BEE_2017":	134984,
+"BEE_2018":	135273,
+"BEE_2019":	135561
   }
   },
   {
@@ -37422,7 +38748,20 @@
   "ISO_A3": "MEX",
   "CONTINENT": "North America",
   "REGION_UN": "Americas",
-  "SUBREGION": "Central America"
+  "SUBREGION": "Central America",
+  "BEE_2007":	1741040,
+"BEE_2008":	1797478,
+"BEE_2009":	1774757,
+"BEE_2010":	1842130,
+"BEE_2011":	1847667,
+"BEE_2012":	1898239,
+"BEE_2013":	1933105,
+"BEE_2014":	1981162,
+"BEE_2015":	2017931,
+"BEE_2016":	1859350,
+"BEE_2017":	1853807,
+"BEE_2018":	2172107,
+"BEE_2019":	2157866
   }
   },
   {
@@ -37450,7 +38789,20 @@
   "ISO_A3": "MKD",
   "CONTINENT": "Europe",
   "REGION_UN": "Europe",
-  "SUBREGION": "Southern Europe"
+  "SUBREGION": "Southern Europe",
+  "BEE_2007":	58307,
+"BEE_2008":	61705,
+"BEE_2009":	53439,
+"BEE_2010":	76052,
+"BEE_2011":	65277,
+"BEE_2012":	52897,
+"BEE_2013":	68294,
+"BEE_2014":	73869,
+"BEE_2015":	73960,
+"BEE_2016":	81476,
+"BEE_2017":	75406,
+"BEE_2018":	81197,
+"BEE_2019":	96143
   }
   },
   {
@@ -37480,7 +38832,20 @@
   "ISO_A3": "MLI",
   "CONTINENT": "Africa",
   "REGION_UN": "Africa",
-  "SUBREGION": "Western Africa"
+  "SUBREGION": "Western Africa",
+  "BEE_2007":	35365,
+"BEE_2008":	35400,
+"BEE_2009":	35600,
+"BEE_2010":	35800,
+"BEE_2011":	35800,
+"BEE_2012":	35850,
+"BEE_2013":	35900,
+"BEE_2014":	40000,
+"BEE_2015":	37559,
+"BEE_2016":	36102,
+"BEE_2017":	36367,
+"BEE_2018":	36634,
+"BEE_2019":	36901
   }
   },
   {
@@ -37509,7 +38874,20 @@
   "ISO_A3": "MMR",
   "CONTINENT": "Asia",
   "REGION_UN": "Asia",
-  "SUBREGION": "South-Eastern Asia"
+  "SUBREGION": "South-Eastern Asia",
+  "BEE_2007":	33300,
+"BEE_2008":	60000,
+"BEE_2009":	61000,
+"BEE_2010":	61000,
+"BEE_2011":	63000,
+"BEE_2012":	63000,
+"BEE_2013":	62000,
+"BEE_2014":	62000,
+"BEE_2015":	62512,
+"BEE_2016":	67332,
+"BEE_2017":	66391,
+"BEE_2018":	67428,
+"BEE_2019":	68464
   }
   },
   {
@@ -37538,7 +38916,20 @@
   "ISO_A3": "MNE",
   "CONTINENT": "Europe",
   "REGION_UN": "Europe",
-  "SUBREGION": "Southern Europe"
+  "SUBREGION": "Southern Europe",
+  "BEE_2007":	41629,
+"BEE_2008":	28631,
+"BEE_2009":	18132,
+"BEE_2010":	21668,
+"BEE_2011":	32000,
+"BEE_2012":	42237,
+"BEE_2013":	42458,
+"BEE_2014":	43210,
+"BEE_2015":	48007,
+"BEE_2016":	67703,
+"BEE_2017":	65000,
+"BEE_2018":	67908,
+"BEE_2019":	70394
   }
   },
   {
@@ -37563,7 +38954,20 @@
   "ISO_A3": "MNG",
   "CONTINENT": "Asia",
   "REGION_UN": "Asia",
-  "SUBREGION": "Eastern Asia"
+  "SUBREGION": "Eastern Asia",
+  "BEE_2007":	2393,
+"BEE_2008":	2617,
+"BEE_2009":	1392,
+"BEE_2010":	1628,
+"BEE_2011":	896,
+"BEE_2012":	2128,
+"BEE_2013":	3677,
+"BEE_2014":	6645,
+"BEE_2015":	8038,
+"BEE_2016":	8118,
+"BEE_2017":	9122,
+"BEE_2018":	9791,
+"BEE_2019":	10832
   }
   },
   {
@@ -37594,7 +38998,20 @@
   "ISO_A3": "MOZ",
   "CONTINENT": "Africa",
   "REGION_UN": "Africa",
-  "SUBREGION": "Eastern Africa"
+  "SUBREGION": "Eastern Africa",
+  "BEE_2007":	40000,
+"BEE_2008":	42000,
+"BEE_2009":	42500,
+"BEE_2010":	43000,
+"BEE_2011":	43500,
+"BEE_2012":	44000,
+"BEE_2013":	44000,
+"BEE_2014":	45000,
+"BEE_2015":	45566,
+"BEE_2016":	45974,
+"BEE_2017":	46210,
+"BEE_2018":	46582,
+"BEE_2019":	46953
   }
   },
   {
@@ -37622,7 +39039,20 @@
   "ISO_A3": "MRT",
   "CONTINENT": "Africa",
   "REGION_UN": "Africa",
-  "SUBREGION": "Western Africa"
+  "SUBREGION": "Western Africa",
+  "BEE_2007": "",
+  "BEE_2008": "",
+  "BEE_2009": "",
+  "BEE_2010": "",
+  "BEE_2011": "",
+  "BEE_2012": "",
+  "BEE_2013": "",
+  "BEE_2014": "",
+  "BEE_2015": "",
+  "BEE_2016": "",
+  "BEE_2017": "",
+  "BEE_2018": "",
+  "BEE_2019": ""
   }
   },
   {
@@ -37648,7 +39078,20 @@
   "ISO_A3": "MWI",
   "CONTINENT": "Africa",
   "REGION_UN": "Africa",
-  "SUBREGION": "Eastern Africa"
+  "SUBREGION": "Eastern Africa",
+  "BEE_2007": "",
+  "BEE_2008": "",
+  "BEE_2009": "",
+  "BEE_2010": "",
+  "BEE_2011": "",
+  "BEE_2012": "",
+  "BEE_2013": "",
+  "BEE_2014": "",
+  "BEE_2015": "",
+  "BEE_2016": "",
+  "BEE_2017": "",
+  "BEE_2018": "",
+  "BEE_2019": ""
   }
   },
   {
@@ -37683,7 +39126,20 @@
   "ISO_A3": "MYS",
   "CONTINENT": "Asia",
   "REGION_UN": "Asia",
-  "SUBREGION": "South-Eastern Asia"
+  "SUBREGION": "South-Eastern Asia",
+  "BEE_2007": "",
+  "BEE_2008": "",
+  "BEE_2009": "",
+  "BEE_2010": "",
+  "BEE_2011": "",
+  "BEE_2012": "",
+  "BEE_2013": "",
+  "BEE_2014": "",
+  "BEE_2015": "",
+  "BEE_2016": "",
+  "BEE_2017": "",
+  "BEE_2018": "",
+  "BEE_2019": ""
   }
   },
   {
@@ -37711,7 +39167,20 @@
   "ISO_A3": "NAM",
   "CONTINENT": "Africa",
   "REGION_UN": "Africa",
-  "SUBREGION": "Southern Africa"
+  "SUBREGION": "Southern Africa",
+  "BEE_2007": "",
+  "BEE_2008": "",
+  "BEE_2009": "",
+  "BEE_2010": "",
+  "BEE_2011": "",
+  "BEE_2012": "",
+  "BEE_2013": "",
+  "BEE_2014": "",
+  "BEE_2015": "",
+  "BEE_2016": "",
+  "BEE_2017": "",
+  "BEE_2018": "",
+  "BEE_2019": ""
   }
   },
   {
@@ -37735,7 +39204,20 @@
   "ISO_A3": "NCL",
   "CONTINENT": "Oceania",
   "REGION_UN": "Oceania",
-  "SUBREGION": "Melanesia"
+  "SUBREGION": "Melanesia",
+  "BEE_2007":	2000,
+"BEE_2008":	4641,
+"BEE_2009":	2000,
+"BEE_2010":	5360,
+"BEE_2011":	5366,
+"BEE_2012":	5206,
+"BEE_2013":	5539,
+"BEE_2014":	6094,
+"BEE_2015":	6917,
+"BEE_2016":	6670,
+"BEE_2017":	7479,
+"BEE_2018":	8155,
+"BEE_2019":	8859
   }
   },
   {
@@ -37766,7 +39248,20 @@
   "ISO_A3": "NER",
   "CONTINENT": "Africa",
   "REGION_UN": "Africa",
-  "SUBREGION": "Western Africa"
+  "SUBREGION": "Western Africa",
+  "BEE_2007": "",
+  "BEE_2008": "",
+  "BEE_2009": "",
+  "BEE_2010": "",
+  "BEE_2011": "",
+  "BEE_2012": "",
+  "BEE_2013": "",
+  "BEE_2014": "",
+  "BEE_2015": "",
+  "BEE_2016": "",
+  "BEE_2017": "",
+  "BEE_2018": "",
+  "BEE_2019": ""
   }
   },
   {
@@ -37793,7 +39288,20 @@
   "ISO_A3": "NGA",
   "CONTINENT": "Africa",
   "REGION_UN": "Africa",
-  "SUBREGION": "Western Africa"
+  "SUBREGION": "Western Africa",
+  "BEE_2007": "",
+  "BEE_2008": "",
+  "BEE_2009": "",
+  "BEE_2010": "",
+  "BEE_2011": "",
+  "BEE_2012": "",
+  "BEE_2013": "",
+  "BEE_2014": "",
+  "BEE_2015": "",
+  "BEE_2016": "",
+  "BEE_2017": "",
+  "BEE_2018": "",
+  "BEE_2019": ""
   }
   },
   {
@@ -37820,7 +39328,20 @@
   "ISO_A3": "NIC",
   "CONTINENT": "North America",
   "REGION_UN": "Americas",
-  "SUBREGION": "Central America"
+  "SUBREGION": "Central America",
+  "BEE_2007": "",
+  "BEE_2008": "",
+  "BEE_2009": "",
+  "BEE_2010": "",
+  "BEE_2011": "",
+  "BEE_2012": "",
+  "BEE_2013": "",
+  "BEE_2014": "",
+  "BEE_2015": "",
+  "BEE_2016": "",
+  "BEE_2017": "",
+  "BEE_2018": "",
+  "BEE_2019": ""
   }
   },
   {
@@ -37846,7 +39367,20 @@
   "ISO_A3": "NLD",
   "CONTINENT": "Europe",
   "REGION_UN": "Europe",
-  "SUBREGION": "Western Europe"
+  "SUBREGION": "Western Europe",
+  "BEE_2007": "",
+  "BEE_2008": "",
+  "BEE_2009": "",
+  "BEE_2010": "",
+  "BEE_2011": "",
+  "BEE_2012": "",
+  "BEE_2013": "",
+  "BEE_2014": "",
+  "BEE_2015": "",
+  "BEE_2016": "",
+  "BEE_2017": "",
+  "BEE_2018": "",
+  "BEE_2019": ""
   }
   },
   {
@@ -37890,7 +39424,20 @@
   "ISO_A3": "NOR",
   "CONTINENT": "Europe",
   "REGION_UN": "Europe",
-  "SUBREGION": "Northern Europe"
+  "SUBREGION": "Northern Europe",
+  "BEE_2007": "",
+  "BEE_2008": "",
+  "BEE_2009": "",
+  "BEE_2010": "",
+  "BEE_2011": "",
+  "BEE_2012": "",
+  "BEE_2013": "",
+  "BEE_2014": "",
+  "BEE_2015": "",
+  "BEE_2016": "",
+  "BEE_2017": "",
+  "BEE_2018": "",
+  "BEE_2019": ""
   }
   },
   {
@@ -37915,7 +39462,20 @@
   "ISO_A3": "NPL",
   "CONTINENT": "Asia",
   "REGION_UN": "Asia",
-  "SUBREGION": "Southern Asia"
+  "SUBREGION": "Southern Asia",
+  "BEE_2007": "",
+  "BEE_2008": "",
+  "BEE_2009": "",
+  "BEE_2010": "",
+  "BEE_2011": "",
+  "BEE_2012": "",
+  "BEE_2013": "",
+  "BEE_2014": "",
+  "BEE_2015": "",
+  "BEE_2016": "",
+  "BEE_2017": "",
+  "BEE_2018": "",
+  "BEE_2019": ""
   }
   },
   {
@@ -37947,9 +39507,19 @@
   "CONTINENT": "Oceania",
   "REGION_UN": "Oceania",
   "SUBREGION": "Australia and New Zealand",
-  "BEE_2007": 335229,
-  "BEE_2017": 820000,
-  "BEE_CHANGE": "145%"
+  "BEE_2007":	335229,
+"BEE_2008":	373828,
+"BEE_2009":	389971,
+"BEE_2010":	402069,
+"BEE_2011":	418163,
+"BEE_2012":	451787,
+"BEE_2013":	452018,
+"BEE_2014":	507247,
+"BEE_2015":	575872,
+"BEE_2016":	684046,
+"BEE_2017":	820000,
+"BEE_2018":	879758,
+"BEE_2019":	918026
   }
   },
   {
@@ -37984,7 +39554,20 @@
   "ISO_A3": "OMN",
   "CONTINENT": "Asia",
   "REGION_UN": "Asia",
-  "SUBREGION": "Western Asia"
+  "SUBREGION": "Western Asia",
+  "BEE_2007":	35217,
+"BEE_2008":	40383,
+"BEE_2009":	37685,
+"BEE_2010":	39607,
+"BEE_2011":	40000,
+"BEE_2012":	40000,
+"BEE_2013":	40000,
+"BEE_2014":	64091,
+"BEE_2015":	88201,
+"BEE_2016":	100000,
+"BEE_2017":	100000,
+"BEE_2018":	100000,
+"BEE_2019":	113798
   }
   },
   {
@@ -38012,7 +39595,20 @@
   "ISO_A3": "PAK",
   "CONTINENT": "Asia",
   "REGION_UN": "Asia",
-  "SUBREGION": "Southern Asia"
+  "SUBREGION": "Southern Asia",
+  "BEE_2007":	385000,
+"BEE_2008":	385000,
+"BEE_2009":	385000,
+"BEE_2010":	385000,
+"BEE_2011":	385000,
+"BEE_2012":	385000,
+"BEE_2013":	386000,
+"BEE_2014":	387500,
+"BEE_2015":	389051,
+"BEE_2016":	390203,
+"BEE_2017":	386524,
+"BEE_2018":	386176,
+"BEE_2019":	385827
   }
   },
   {
@@ -38039,7 +39635,20 @@
   "ISO_A3": "PAN",
   "CONTINENT": "North America",
   "REGION_UN": "Americas",
-  "SUBREGION": "Central America"
+  "SUBREGION": "Central America",
+  "BEE_2007": "",
+  "BEE_2008": "",
+  "BEE_2009": "",
+  "BEE_2010": "",
+  "BEE_2011": "",
+  "BEE_2012": "",
+  "BEE_2013": "",
+  "BEE_2014": "",
+  "BEE_2015": "",
+  "BEE_2016": "",
+  "BEE_2017": "",
+  "BEE_2018": "",
+  "BEE_2019": ""
   }
   },
   {
@@ -38068,7 +39677,20 @@
   "ISO_A3": "PER",
   "CONTINENT": "South America",
   "REGION_UN": "Americas",
-  "SUBREGION": "South America"
+  "SUBREGION": "South America",
+  "BEE_2007": "",
+  "BEE_2008": "",
+  "BEE_2009": "",
+  "BEE_2010": "",
+  "BEE_2011": "",
+  "BEE_2012": "",
+  "BEE_2013": "",
+  "BEE_2014": "",
+  "BEE_2015": "",
+  "BEE_2016": "",
+  "BEE_2017": "",
+  "BEE_2018": "",
+  "BEE_2019": ""
   }
   },
   {
@@ -38124,7 +39746,20 @@
   "ISO_A3": "PHL",
   "CONTINENT": "Asia",
   "REGION_UN": "Asia",
-  "SUBREGION": "South-Eastern Asia"
+  "SUBREGION": "South-Eastern Asia",
+  "BEE_2007": "",
+  "BEE_2008": "",
+  "BEE_2009": "",
+  "BEE_2010": "",
+  "BEE_2011": "",
+  "BEE_2012": "",
+  "BEE_2013": "",
+  "BEE_2014": "",
+  "BEE_2015": "",
+  "BEE_2016": "",
+  "BEE_2017": "",
+  "BEE_2018": "",
+  "BEE_2019": ""
   }
   },
   {
@@ -38166,7 +39801,20 @@
   "ISO_A3": "PNG",
   "CONTINENT": "Oceania",
   "REGION_UN": "Oceania",
-  "SUBREGION": "Melanesia"
+  "SUBREGION": "Melanesia",
+  "BEE_2007": "",
+  "BEE_2008": "",
+  "BEE_2009": "",
+  "BEE_2010": "",
+  "BEE_2011": "",
+  "BEE_2012": "",
+  "BEE_2013": "",
+  "BEE_2014": "",
+  "BEE_2015": "",
+  "BEE_2016": "",
+  "BEE_2017": "",
+  "BEE_2018": "",
+  "BEE_2019": ""
   }
   },
   {
@@ -38197,7 +39845,20 @@
   "ISO_A3": "POL",
   "CONTINENT": "Europe",
   "REGION_UN": "Europe",
-  "SUBREGION": "Eastern Europe"
+  "SUBREGION": "Eastern Europe",
+  "BEE_2007":	1450000,
+  "BEE_2008":	1450000,
+  "BEE_2009":	1450000,
+  "BEE_2010":	1450000,
+  "BEE_2011":	1465000,
+  "BEE_2012":	1470000,
+  "BEE_2013":	1500000,
+  "BEE_2014":	1525000,
+  "BEE_2015":	1547589,
+  "BEE_2016":	1554259,
+  "BEE_2017":	1571299,
+  "BEE_2018":	"",
+  "BEE_2019":	""
   }
   },
   {
@@ -38221,7 +39882,20 @@
   "ISO_A3": "PRI",
   "CONTINENT": "North America",
   "REGION_UN": "Americas",
-  "SUBREGION": "Caribbean"
+  "SUBREGION": "Caribbean",
+  "BEE_2007":	3200,
+"BEE_2008":	3200,
+"BEE_2009":	3200,
+"BEE_2010":	3200,
+"BEE_2011":	3200,
+"BEE_2012":	3200,
+"BEE_2013":	3200,
+"BEE_2014":	3200,
+"BEE_2015":	3146,
+"BEE_2016":	2944,
+"BEE_2017":	2958,
+"BEE_2018":	2923,
+"BEE_2019":	2889
   }
   },
   {
@@ -38249,7 +39923,20 @@
   "ISO_A3": "PRK",
   "CONTINENT": "Asia",
   "REGION_UN": "Asia",
-  "SUBREGION": "Eastern Asia"
+  "SUBREGION": "Eastern Asia",
+  "BEE_2007": "",
+  "BEE_2008": "",
+  "BEE_2009": "",
+  "BEE_2010": "",
+  "BEE_2011": "",
+  "BEE_2012": "",
+  "BEE_2013": "",
+  "BEE_2014": "",
+  "BEE_2015": "",
+  "BEE_2016": "",
+  "BEE_2017": "",
+  "BEE_2018": "",
+  "BEE_2019": ""
   }
   },
   {
@@ -38274,7 +39961,20 @@
   "ISO_A3": "PRT",
   "CONTINENT": "Europe",
   "REGION_UN": "Europe",
-  "SUBREGION": "Southern Europe"
+  "SUBREGION": "Southern Europe",
+  "BEE_2007":	64500,
+"BEE_2008":	61228,
+"BEE_2009":	60000,
+"BEE_2010":	60000,
+"BEE_2011":	60000,
+"BEE_2012":	60000,
+"BEE_2013":	60000,
+"BEE_2014":	60000,
+"BEE_2015":	59974,
+"BEE_2016":	59134,
+"BEE_2017":	58596,
+"BEE_2018":	58255,
+"BEE_2019":	57913
   }
   },
   {
@@ -38300,7 +40000,20 @@
   "ISO_A3": "PRY",
   "CONTINENT": "South America",
   "REGION_UN": "Americas",
-  "SUBREGION": "South America"
+  "SUBREGION": "South America",
+  "BEE_2007": "",
+  "BEE_2008": "",
+  "BEE_2009": "",
+  "BEE_2010": "",
+  "BEE_2011": "",
+  "BEE_2012": "",
+  "BEE_2013": "",
+  "BEE_2014": "",
+  "BEE_2015": "",
+  "BEE_2016": "",
+  "BEE_2017": "",
+  "BEE_2018": "",
+  "BEE_2019": ""
   }
   },
   {
@@ -38325,7 +40038,20 @@
   "ISO_A3": "PSE",
   "CONTINENT": "Asia",
   "REGION_UN": "Asia",
-  "SUBREGION": "Western Asia"
+  "SUBREGION": "Western Asia",
+  "BEE_2007":	65948,
+"BEE_2008":	66733,
+"BEE_2009":	52000,
+"BEE_2010":	38216,
+"BEE_2011":	44278,
+"BEE_2012":	45500,
+"BEE_2013":	46226,
+"BEE_2014":	47000,
+"BEE_2015":	47175,
+"BEE_2016":	44389,
+"BEE_2017":	41977,
+"BEE_2018":	40717,
+"BEE_2019":	39535
   }
   },
   {
@@ -38350,7 +40076,20 @@
   "ISO_A3": "QAT",
   "CONTINENT": "Asia",
   "REGION_UN": "Asia",
-  "SUBREGION": "Western Asia"
+  "SUBREGION": "Western Asia",
+  "BEE_2007": "",
+  "BEE_2008": "",
+  "BEE_2009": "",
+  "BEE_2010": "",
+  "BEE_2011": "",
+  "BEE_2012": "",
+  "BEE_2013": "",
+  "BEE_2014": "",
+  "BEE_2015": "",
+  "BEE_2016": "",
+  "BEE_2017": "",
+  "BEE_2018": "",
+  "BEE_2019": ""
   }
   },
   {
@@ -38380,7 +40119,20 @@
   "ISO_A3": "ROU",
   "CONTINENT": "Europe",
   "REGION_UN": "Europe",
-  "SUBREGION": "Eastern Europe"
+  "SUBREGION": "Eastern Europe",
+  "BEE_2007":	891043,
+"BEE_2008":	982368,
+"BEE_2009":	998000,
+"BEE_2010":	1057186,
+"BEE_2011":	1274917,
+"BEE_2012":	1294610,
+"BEE_2013":	1254039,
+"BEE_2014":	1354218,
+"BEE_2015":	1350998,
+"BEE_2016":	1392846,
+"BEE_2017":	1437394,
+"BEE_2018":	1602453,
+"BEE_2019":	1689500
   }
   },
   {
@@ -38490,7 +40242,20 @@
   "ISO_A3": "RUS",
   "CONTINENT": "Europe",
   "REGION_UN": "Europe",
-  "SUBREGION": "Eastern Europe"
+  "SUBREGION": "Eastern Europe",
+  "BEE_2007":	3060407,
+"BEE_2008":	3097174,
+"BEE_2009":	2975622,
+"BEE_2010":	3047239,
+"BEE_2011":	3049324,
+"BEE_2012":	3250096,
+"BEE_2013":	3284176,
+"BEE_2014":	3341454,
+"BEE_2015":	3474014,
+"BEE_2016":	3425405,
+"BEE_2017":	3316977,
+"BEE_2018":	3182399,
+"BEE_2019":	3093859
   }
   },
   {
@@ -38517,7 +40282,20 @@
   "ISO_A3": "RWA",
   "CONTINENT": "Africa",
   "REGION_UN": "Africa",
-  "SUBREGION": "Eastern Africa"
+  "SUBREGION": "Eastern Africa",
+  "BEE_2007":	3750,
+"BEE_2008":	3750,
+"BEE_2009":	3750,
+"BEE_2010":	3750,
+"BEE_2011":	3750,
+"BEE_2012":	3750,
+"BEE_2013":	3750,
+"BEE_2014":	3750,
+"BEE_2015":	4184,
+"BEE_2016":	4307,
+"BEE_2017":	4178,
+"BEE_2018":	4219,
+"BEE_2019":	4260
   }
   },
   {
@@ -38544,7 +40322,20 @@
   "ISO_A3": "ESH",
   "CONTINENT": "Africa",
   "REGION_UN": "Africa",
-  "SUBREGION": "Northern Africa"
+  "SUBREGION": "Northern Africa",
+  "BEE_2007": "",
+  "BEE_2008": "",
+  "BEE_2009": "",
+  "BEE_2010": "",
+  "BEE_2011": "",
+  "BEE_2012": "",
+  "BEE_2013": "",
+  "BEE_2014": "",
+  "BEE_2015": "",
+  "BEE_2016": "",
+  "BEE_2017": "",
+  "BEE_2018": "",
+  "BEE_2019": ""
   }
   },
   {
@@ -38577,7 +40368,20 @@
   "ISO_A3": "SAU",
   "CONTINENT": "Asia",
   "REGION_UN": "Asia",
-  "SUBREGION": "Western Asia"
+  "SUBREGION": "Western Asia",
+  "BEE_2007": "",
+  "BEE_2008": "",
+  "BEE_2009": "",
+  "BEE_2010": "",
+  "BEE_2011": "",
+  "BEE_2012": "",
+  "BEE_2013": "",
+  "BEE_2014": "",
+  "BEE_2015": "",
+  "BEE_2016": "",
+  "BEE_2017": "",
+  "BEE_2018": "",
+  "BEE_2019": ""
   }
   },
   {
@@ -38608,7 +40412,20 @@
   "ISO_A3": "SDN",
   "CONTINENT": "Africa",
   "REGION_UN": "Africa",
-  "SUBREGION": "Northern Africa"
+  "SUBREGION": "Northern Africa",
+  "BEE_2007": "",
+  "BEE_2008": "",
+  "BEE_2009": "",
+  "BEE_2010": "",
+  "BEE_2011": "",
+  "BEE_2012": "",
+  "BEE_2013": "",
+  "BEE_2014": "",
+  "BEE_2015": "",
+  "BEE_2016": "",
+  "BEE_2017": "",
+  "BEE_2018": "",
+  "BEE_2019": ""
   }
   },
   {
@@ -38637,7 +40454,20 @@
   "ISO_A3": "SSD",
   "CONTINENT": "Africa",
   "REGION_UN": "Africa",
-  "SUBREGION": "Eastern Africa"
+  "SUBREGION": "Eastern Africa",
+  "BEE_2007": "",
+  "BEE_2008": "",
+  "BEE_2009": "",
+  "BEE_2010": "",
+  "BEE_2011": "",
+  "BEE_2012": "",
+  "BEE_2013": "",
+  "BEE_2014": "",
+  "BEE_2015": "",
+  "BEE_2016": "",
+  "BEE_2017": "",
+  "BEE_2018": "",
+  "BEE_2019": ""
   }
   },
   {
@@ -38667,7 +40497,20 @@
   "ISO_A3": "SEN",
   "CONTINENT": "Africa",
   "REGION_UN": "Africa",
-  "SUBREGION": "Western Africa"
+  "SUBREGION": "Western Africa",
+  "BEE_2007":	250000,
+"BEE_2008":	280000,
+"BEE_2009":	290000,
+"BEE_2010":	300000,
+"BEE_2011":	305000,
+"BEE_2012":	310000,
+"BEE_2013":	313000,
+"BEE_2014":	314000,
+"BEE_2015":	314681,
+"BEE_2016":	326312,
+"BEE_2017":	325663,
+"BEE_2018":	328293,
+"BEE_2019":	331152
   }
   },
   {
@@ -38713,7 +40556,20 @@
   "ISO_A3": "SLB",
   "CONTINENT": "Oceania",
   "REGION_UN": "Oceania",
-  "SUBREGION": "Melanesia"
+  "SUBREGION": "Melanesia",
+  "BEE_2007": "",
+  "BEE_2008": "",
+  "BEE_2009": "",
+  "BEE_2010": "",
+  "BEE_2011": "",
+  "BEE_2012": "",
+  "BEE_2013": "",
+  "BEE_2014": "",
+  "BEE_2015": "",
+  "BEE_2016": "",
+  "BEE_2017": "",
+  "BEE_2018": "",
+  "BEE_2019": ""
   }
   },
   {
@@ -38739,7 +40595,20 @@
   "ISO_A3": "SLE",
   "CONTINENT": "Africa",
   "REGION_UN": "Africa",
-  "SUBREGION": "Western Africa"
+  "SUBREGION": "Western Africa",
+  "BEE_2007": "",
+  "BEE_2008": "",
+  "BEE_2009": "",
+  "BEE_2010": "",
+  "BEE_2011": "",
+  "BEE_2012": "",
+  "BEE_2013": "",
+  "BEE_2014": "",
+  "BEE_2015": "",
+  "BEE_2016": "",
+  "BEE_2017": "",
+  "BEE_2018": "",
+  "BEE_2019": ""
   }
   },
   {
@@ -38765,7 +40634,20 @@
   "ISO_A3": "SLV",
   "CONTINENT": "North America",
   "REGION_UN": "Americas",
-  "SUBREGION": "Central America"
+  "SUBREGION": "Central America",
+  "BEE_2007":	215000,
+"BEE_2008":	215100,
+"BEE_2009":	215000,
+"BEE_2010":	215100,
+"BEE_2011":	215100,
+"BEE_2012":	215150,
+"BEE_2013":	215150,
+"BEE_2014":	215100,
+"BEE_2015":	215777,
+"BEE_2016":	215991,
+"BEE_2017":	215956,
+"BEE_2018":	215995,
+"BEE_2019":	216033
   }
   },
   {
@@ -38792,7 +40674,20 @@
   "ISO_A3": "-99",
   "CONTINENT": "Africa",
   "REGION_UN": "Africa",
-  "SUBREGION": "Eastern Africa"
+  "SUBREGION": "Eastern Africa",
+  "BEE_2007": "",
+  "BEE_2008": "",
+  "BEE_2009": "",
+  "BEE_2010": "",
+  "BEE_2011": "",
+  "BEE_2012": "",
+  "BEE_2013": "",
+  "BEE_2014": "",
+  "BEE_2015": "",
+  "BEE_2016": "",
+  "BEE_2017": "",
+  "BEE_2018": "",
+  "BEE_2019": ""
   }
   },
   {
@@ -38819,7 +40714,20 @@
   "ISO_A3": "SOM",
   "CONTINENT": "Africa",
   "REGION_UN": "Africa",
-  "SUBREGION": "Eastern Africa"
+  "SUBREGION": "Eastern Africa",
+  "BEE_2007": "",
+  "BEE_2008": "",
+  "BEE_2009": "",
+  "BEE_2010": "",
+  "BEE_2011": "",
+  "BEE_2012": "",
+  "BEE_2013": "",
+  "BEE_2014": "",
+  "BEE_2015": "",
+  "BEE_2016": "",
+  "BEE_2017": "",
+  "BEE_2018": "",
+  "BEE_2019": ""
   }
   },
   {
@@ -38850,7 +40758,20 @@
   "ISO_A3": "SRB",
   "CONTINENT": "Europe",
   "REGION_UN": "Europe",
-  "SUBREGION": "Southern Europe"
+  "SUBREGION": "Southern Europe",
+  "BEE_2007":	267238,
+"BEE_2008":	298159,
+"BEE_2009":	301560,
+"BEE_2010":	319912,
+"BEE_2011":	306068,
+"BEE_2012":	665022,
+"BEE_2013":	653497,
+"BEE_2014":	677071,
+"BEE_2015":	791522,
+"BEE_2016":	792478,
+"BEE_2017":	849280,
+"BEE_2018":	914134,
+"BEE_2019":	976701
   }
   },
   {
@@ -38877,7 +40798,20 @@
   "ISO_A3": "SUR",
   "CONTINENT": "South America",
   "REGION_UN": "Americas",
-  "SUBREGION": "South America"
+  "SUBREGION": "South America",
+  "BEE_2007": "",
+  "BEE_2008": "",
+  "BEE_2009": "",
+  "BEE_2010": "",
+  "BEE_2011": "",
+  "BEE_2012": "",
+  "BEE_2013": "",
+  "BEE_2014": "",
+  "BEE_2015": "",
+  "BEE_2016": "",
+  "BEE_2017": "",
+  "BEE_2018": "",
+  "BEE_2019": ""
   }
   },
   {
@@ -38905,7 +40839,20 @@
   "ISO_A3": "SVK",
   "CONTINENT": "Europe",
   "REGION_UN": "Europe",
-  "SUBREGION": "Eastern Europe"
+  "SUBREGION": "Eastern Europe",
+  "BEE_2007":	246479,
+"BEE_2008":	247678,
+"BEE_2009":	215666,
+"BEE_2010":	232189,
+"BEE_2011":	239851,
+"BEE_2012":	257449,
+"BEE_2013":	254859,
+"BEE_2014":	256462,
+"BEE_2015":	273302,
+"BEE_2016":	263009,
+"BEE_2017":	278385,
+"BEE_2018":	301828,
+"BEE_2019":	308592
   }
   },
   {
@@ -38933,7 +40880,20 @@
   "ISO_A3": "SVN",
   "CONTINENT": "Europe",
   "REGION_UN": "Europe",
-  "SUBREGION": "Southern Europe"
+  "SUBREGION": "Southern Europe",
+  "BEE_2007":	40000,
+"BEE_2008":	41245,
+"BEE_2009":	46000,
+"BEE_2010":	52000,
+"BEE_2011":	59857,
+"BEE_2012":	62500,
+"BEE_2013":	63000,
+"BEE_2014":	62716,
+"BEE_2015":	64000,
+"BEE_2016":	62815,
+"BEE_2017":	86500,
+"BEE_2018":	"",
+"BEE_2019":	""
   }
   },
   {
@@ -38959,7 +40919,20 @@
   "ISO_A3": "SWE",
   "CONTINENT": "Europe",
   "REGION_UN": "Europe",
-  "SUBREGION": "Northern Europe"
+  "SUBREGION": "Northern Europe",
+  "BEE_2007":	83200,
+"BEE_2008":	76800,
+"BEE_2009":	83700,
+"BEE_2010":	87720,
+"BEE_2011":	87480,
+"BEE_2012":	102731,
+"BEE_2013":	90069,
+"BEE_2014":	105850,
+"BEE_2015":	91823,
+"BEE_2016":	90448,
+"BEE_2017":	91105,
+"BEE_2018":	"",
+"BEE_2019":	""
   }
   },
   {
@@ -38984,7 +40957,20 @@
   "ISO_A3": "SWZ",
   "CONTINENT": "Africa",
   "REGION_UN": "Africa",
-  "SUBREGION": "Southern Africa"
+  "SUBREGION": "Southern Africa",
+  "BEE_2007": "",
+  "BEE_2008": "",
+  "BEE_2009": "",
+  "BEE_2010": "",
+  "BEE_2011": "",
+  "BEE_2012": "",
+  "BEE_2013": "",
+  "BEE_2014": "",
+  "BEE_2015": "",
+  "BEE_2016": "",
+  "BEE_2017": "",
+  "BEE_2018": "",
+  "BEE_2019": ""
   }
   },
   {
@@ -39013,7 +40999,20 @@
   "ISO_A3": "SYR",
   "CONTINENT": "Asia",
   "REGION_UN": "Asia",
-  "SUBREGION": "Western Asia"
+  "SUBREGION": "Western Asia",
+  "BEE_2007":	530000,
+"BEE_2008":	541000,
+"BEE_2009":	595394,
+"BEE_2010":	630775,
+"BEE_2011":	631526,
+"BEE_2012":	597863,
+"BEE_2013":	544846,
+"BEE_2014":	507829,
+"BEE_2015":	500000,
+"BEE_2016":	500000,
+"BEE_2017":	471239,
+"BEE_2018":	473251,
+"BEE_2019":	493889
   }
   },
   {
@@ -39041,7 +41040,20 @@
   "ISO_A3": "TCD",
   "CONTINENT": "Africa",
   "REGION_UN": "Africa",
-  "SUBREGION": "Middle Africa"
+  "SUBREGION": "Middle Africa",
+  "BEE_2007":	121500,
+"BEE_2008":	122000,
+"BEE_2009":	122500,
+"BEE_2010":	123000,
+"BEE_2011":	123500,
+"BEE_2012":	123500,
+"BEE_2013":	124000,
+"BEE_2014":	124500,
+"BEE_2015":	123500,
+"BEE_2016":	123534,
+"BEE_2017":	124755,
+"BEE_2018":	125074,
+"BEE_2019":	125341
   }
   },
   {
@@ -39068,7 +41080,20 @@
   "ISO_A3": "TGO",
   "CONTINENT": "Africa",
   "REGION_UN": "Africa",
-  "SUBREGION": "Western Africa"
+  "SUBREGION": "Western Africa",
+  "BEE_2007": "",
+  "BEE_2008": "",
+  "BEE_2009": "",
+  "BEE_2010": "",
+  "BEE_2011": "",
+  "BEE_2012": "",
+  "BEE_2013": "",
+  "BEE_2014": "",
+  "BEE_2015": "",
+  "BEE_2016": "",
+  "BEE_2017": "",
+  "BEE_2018": "",
+  "BEE_2019": ""
   }
   },
   {
@@ -39097,7 +41122,20 @@
   "ISO_A3": "THA",
   "CONTINENT": "Asia",
   "REGION_UN": "Asia",
-  "SUBREGION": "South-Eastern Asia"
+  "SUBREGION": "South-Eastern Asia",
+  "BEE_2007": "",
+  "BEE_2008": "",
+  "BEE_2009": "",
+  "BEE_2010": "",
+  "BEE_2011": "",
+  "BEE_2012": "",
+  "BEE_2013": "",
+  "BEE_2014": "",
+  "BEE_2015": "",
+  "BEE_2016": "",
+  "BEE_2017": "",
+  "BEE_2018": "",
+  "BEE_2019": ""
   }
   },
   {
@@ -39124,7 +41162,20 @@
   "ISO_A3": "TJK",
   "CONTINENT": "Asia",
   "REGION_UN": "Asia",
-  "SUBREGION": "Central Asia"
+  "SUBREGION": "Central Asia",
+  "BEE_2007":	81720,
+"BEE_2008":	118648,
+"BEE_2009":	140042,
+"BEE_2010":	180617,
+"BEE_2011":	190153,
+"BEE_2012":	195539,
+"BEE_2013":	202089,
+"BEE_2014":	209476,
+"BEE_2015":	213451,
+"BEE_2016":	218990,
+"BEE_2017":	222386,
+"BEE_2018":	223262,
+"BEE_2019":	231667
   }
   },
   {
@@ -39152,7 +41203,20 @@
   "ISO_A3": "TKM",
   "CONTINENT": "Asia",
   "REGION_UN": "Asia",
-  "SUBREGION": "Central Asia"
+  "SUBREGION": "Central Asia",
+  "BEE_2007": "",
+  "BEE_2008": "",
+  "BEE_2009": "",
+  "BEE_2010": "",
+  "BEE_2011": "",
+  "BEE_2012": "",
+  "BEE_2013": "",
+  "BEE_2014": "",
+  "BEE_2015": "",
+  "BEE_2016": "",
+  "BEE_2017": "",
+  "BEE_2018": "",
+  "BEE_2019": ""
   }
   },
   {
@@ -39177,7 +41241,20 @@
   "ISO_A3": "TLS",
   "CONTINENT": "Asia",
   "REGION_UN": "Asia",
-  "SUBREGION": "South-Eastern Asia"
+  "SUBREGION": "South-Eastern Asia",
+  "BEE_2007":	20000,
+"BEE_2008":	20000,
+"BEE_2009":	20000,
+"BEE_2010":	20000,
+"BEE_2011":	20000,
+"BEE_2012":	20000,
+"BEE_2013":	20000,
+"BEE_2014":	20000,
+"BEE_2015":	20000,
+"BEE_2016":	20000,
+"BEE_2017":	20000,
+"BEE_2018":	20000,
+"BEE_2019":	20000
   }
   },
   {
@@ -39201,7 +41278,20 @@
   "ISO_A3": "TTO",
   "CONTINENT": "North America",
   "REGION_UN": "Americas",
-  "SUBREGION": "Caribbean"
+  "SUBREGION": "Caribbean",
+  "BEE_2007":	2250,
+"BEE_2008":	2300,
+"BEE_2009":	2300,
+"BEE_2010":	2330,
+"BEE_2011":	4200,
+"BEE_2012":	2500,
+"BEE_2013":	2500,
+"BEE_2014":	2500,
+"BEE_2015":	3787,
+"BEE_2016":	5093,
+"BEE_2017":	5435,
+"BEE_2018":	7760,
+"BEE_2019":	9083
   }
   },
   {
@@ -39227,7 +41317,20 @@
   "ISO_A3": "TUN",
   "CONTINENT": "Africa",
   "REGION_UN": "Africa",
-  "SUBREGION": "Northern Africa"
+  "SUBREGION": "Northern Africa",
+  "BEE_2007":	479000,
+"BEE_2008":	468000,
+"BEE_2009":	554000,
+"BEE_2010":	507000,
+"BEE_2011":	589000,
+"BEE_2012":	589000,
+"BEE_2013":	590000,
+"BEE_2014":	589000,
+"BEE_2015":	622711,
+"BEE_2016":	664717,
+"BEE_2017":	673731,
+"BEE_2018":	693480,
+"BEE_2019":	713229
   }
   },
   {
@@ -39265,7 +41368,20 @@
   "ISO_A3": "TUR",
   "CONTINENT": "Asia",
   "REGION_UN": "Asia",
-  "SUBREGION": "Western Asia"
+  "SUBREGION": "Western Asia",
+  "BEE_2007":	4825596,
+"BEE_2008":	4888960,
+"BEE_2009":	5339224,
+"BEE_2010":	5602669,
+"BEE_2011":	6011332,
+"BEE_2012":	6348009,
+"BEE_2013":	6641348,
+"BEE_2014":	7082732,
+"BEE_2015":	7748287,
+"BEE_2016":	7900364,
+"BEE_2017":	7991072,
+"BEE_2018":	8108424,
+"BEE_2019":	8128360
   }
   },
   {
@@ -39289,7 +41405,20 @@
   "ISO_A3": "TWN",
   "CONTINENT": "Asia",
   "REGION_UN": "Asia",
-  "SUBREGION": "Eastern Asia"
+  "SUBREGION": "Eastern Asia",
+  "BEE_2007":	73050,
+"BEE_2008":	71200,
+"BEE_2009":	77150,
+"BEE_2010":	97730,
+"BEE_2011":	103870,
+"BEE_2012":	117204,
+"BEE_2013":	120000,
+"BEE_2014":	125000,
+"BEE_2015":	130750,
+"BEE_2016":	125581,
+"BEE_2017":	133402,
+"BEE_2018":	137969,
+"BEE_2019":	142536
   }
   },
   {
@@ -39321,7 +41450,20 @@
   "ISO_A3": "TZA",
   "CONTINENT": "Africa",
   "REGION_UN": "Africa",
-  "SUBREGION": "Eastern Africa"
+  "SUBREGION": "Eastern Africa",
+  "BEE_2007":	2750000,
+"BEE_2008":	2700000,
+"BEE_2009":	2800000,
+"BEE_2010":	2850000,
+"BEE_2011":	2800000,
+"BEE_2012":	2820000,
+"BEE_2013":	2850000,
+"BEE_2014":	2900000,
+"BEE_2015":	2929477,
+"BEE_2016":	2947398,
+"BEE_2017":	2952244,
+"BEE_2018":	2968267,
+"BEE_2019":	2984290
   }
   },
   {
@@ -39349,7 +41491,20 @@
   "ISO_A3": "UGA",
   "CONTINENT": "Africa",
   "REGION_UN": "Africa",
-  "SUBREGION": "Eastern Africa"
+  "SUBREGION": "Eastern Africa",
+  "BEE_2007":	76000,
+"BEE_2008":	76500,
+"BEE_2009":	77000,
+"BEE_2010":	77800,
+"BEE_2011":	78000,
+"BEE_2012":	78300,
+"BEE_2013":	78500,
+"BEE_2014":	79000,
+"BEE_2015":	79542,
+"BEE_2016":	80073,
+"BEE_2017":	80520,
+"BEE_2018":	80971,
+"BEE_2019":	81421
   }
   },
   {
@@ -39383,7 +41538,20 @@
   "ISO_A3": "UKR",
   "CONTINENT": "Europe",
   "REGION_UN": "Europe",
-  "SUBREGION": "Eastern Europe"
+  "SUBREGION": "Eastern Europe",
+  "BEE_2007":	3456,
+"BEE_2008":	3422,
+"BEE_2009":	3250,
+"BEE_2010":	3150,
+"BEE_2011":	2922,
+"BEE_2012":	2891,
+"BEE_2013":	2936,
+"BEE_2014":	2873,
+"BEE_2015":	2700,
+"BEE_2016":	2600,
+"BEE_2017":	2487,
+"BEE_2018":	2642,
+"BEE_2019":	2601
   }
   },
   {
@@ -39409,7 +41577,20 @@
   "ISO_A3": "URY",
   "CONTINENT": "South America",
   "REGION_UN": "Americas",
-  "SUBREGION": "South America"
+  "SUBREGION": "South America",
+  "BEE_2007":	514032,
+"BEE_2008":	493014,
+"BEE_2009":	497647,
+"BEE_2010":	497647,
+"BEE_2011":	498000,
+"BEE_2012":	500000,
+"BEE_2013":	500000,
+"BEE_2014":	582989,
+"BEE_2015":	589228,
+"BEE_2016":	587512,
+"BEE_2017":	585734,
+"BEE_2018":	556107,
+"BEE_2019":	560983
   }
   },
   {
@@ -39484,7 +41665,20 @@
   "ISO_A3": "USA",
   "CONTINENT": "North America",
   "REGION_UN": "Americas",
-  "SUBREGION": "Northern America"
+  "SUBREGION": "Northern America",
+  "BEE_2007":	2443000,
+"BEE_2008":	2342000,
+"BEE_2009":	2498000,
+"BEE_2010":	2692000,
+"BEE_2011":	2491000,
+"BEE_2012":	2539000,
+"BEE_2013":	2640000,
+"BEE_2014":	2740000,
+"BEE_2015":	2660000,
+"BEE_2016":	2775000,
+"BEE_2017":	2684000,
+"BEE_2018":	2828000,
+"BEE_2019":	2812000
   }
   },
   {
@@ -39512,7 +41706,20 @@
   "ISO_A3": "UZB",
   "CONTINENT": "Asia",
   "REGION_UN": "Asia",
-  "SUBREGION": "Central Asia"
+  "SUBREGION": "Central Asia",
+  "BEE_2007":	120000,
+"BEE_2008":	140000,
+"BEE_2009":	160000,
+"BEE_2010":	180000,
+"BEE_2011":	200000,
+"BEE_2012":	238600,
+"BEE_2013":	290300,
+"BEE_2014":	335000,
+"BEE_2015":	383492,
+"BEE_2016":	428882,
+"BEE_2017":	488211,
+"BEE_2018":	574153,
+"BEE_2019":	598975
   }
   },
   {
@@ -39539,7 +41746,20 @@
   "ISO_A3": "VEN",
   "CONTINENT": "South America",
   "REGION_UN": "Americas",
-  "SUBREGION": "South America"
+  "SUBREGION": "South America",
+  "BEE_2007":	10600,
+"BEE_2008":	10600,
+"BEE_2009":	10600,
+"BEE_2010":	10600,
+"BEE_2011":	10600,
+"BEE_2012":	11000,
+"BEE_2013":	11000,
+"BEE_2014":	11500,
+"BEE_2015":	11549,
+"BEE_2016":	9438,
+"BEE_2017":	9442,
+"BEE_2018":	9346,
+"BEE_2019":	9251
   }
   },
   {
@@ -39566,7 +41786,20 @@
   "ISO_A3": "VNM",
   "CONTINENT": "Asia",
   "REGION_UN": "Asia",
-  "SUBREGION": "South-Eastern Asia"
+  "SUBREGION": "South-Eastern Asia",
+  "BEE_2007":	221000,
+"BEE_2008":	250000,
+"BEE_2009":	250000,
+"BEE_2010":	250000,
+"BEE_2011":	250000,
+"BEE_2012":	250000,
+"BEE_2013":	250000,
+"BEE_2014":	250000,
+"BEE_2015":	256270,
+"BEE_2016":	273097,
+"BEE_2017":	273039,
+"BEE_2018":	277270,
+"BEE_2019":	281501
   }
   },
   {
@@ -39597,7 +41830,20 @@
   "ISO_A3": "VUT",
   "CONTINENT": "Oceania",
   "REGION_UN": "Oceania",
-  "SUBREGION": "Melanesia"
+  "SUBREGION": "Melanesia",
+  "BEE_2007": "",
+  "BEE_2008": "",
+  "BEE_2009": "",
+  "BEE_2010": "",
+  "BEE_2011": "",
+  "BEE_2012": "",
+  "BEE_2013": "",
+  "BEE_2014": "",
+  "BEE_2015": "",
+  "BEE_2016": "",
+  "BEE_2017": "",
+  "BEE_2018": "",
+  "BEE_2019": ""
   }
   },
   {
@@ -39623,7 +41869,20 @@
   "ISO_A3": "YEM",
   "CONTINENT": "Asia",
   "REGION_UN": "Asia",
-  "SUBREGION": "Western Asia"
+  "SUBREGION": "Western Asia",
+  "BEE_2007":	161000,
+"BEE_2008":	163000,
+"BEE_2009":	166000,
+"BEE_2010":	170000,
+"BEE_2011":	170700,
+"BEE_2012":	170000,
+"BEE_2013":	168000,
+"BEE_2014":	170000,
+"BEE_2015":	170000,
+"BEE_2016":	162000,
+"BEE_2017":	158000,
+"BEE_2018":	156993,
+"BEE_2019":	168279
   }
   },
   {
@@ -39656,7 +41915,20 @@
   "ISO_A3": "ZAF",
   "CONTINENT": "Africa",
   "REGION_UN": "Africa",
-  "SUBREGION": "Southern Africa"
+  "SUBREGION": "Southern Africa",
+  "BEE_2007":	60000,
+"BEE_2008":	60000,
+"BEE_2009":	65000,
+"BEE_2010":	65000,
+"BEE_2011":	67000,
+"BEE_2012":	67000,
+"BEE_2013":	68000,
+"BEE_2014":	68000,
+"BEE_2015":	68850,
+"BEE_2016":	70948,
+"BEE_2017":	72074,
+"BEE_2018":	73080,
+"BEE_2019":	74086
   }
   },
   {
@@ -39687,7 +41959,20 @@
   "ISO_A3": "ZMB",
   "CONTINENT": "Africa",
   "REGION_UN": "Africa",
-  "SUBREGION": "Eastern Africa"
+  "SUBREGION": "Eastern Africa",
+  "BEE_2007":	50000,
+"BEE_2008":	51000,
+"BEE_2009":	52000,
+"BEE_2010":	54000,
+"BEE_2011":	55000,
+"BEE_2012":	56000,
+"BEE_2013":	57000,
+"BEE_2014":	57000,
+"BEE_2015":	57141,
+"BEE_2016":	60205,
+"BEE_2017":	60928,
+"BEE_2018":	61865,
+"BEE_2019":	62802
   }
   },
   {
@@ -39714,7 +41999,20 @@
   "ISO_A3": "ZWE",
   "CONTINENT": "Africa",
   "REGION_UN": "Africa",
-  "SUBREGION": "Eastern Africa"
+  "SUBREGION": "Eastern Africa",
+  "BEE_2007": "",
+  "BEE_2008": "",
+  "BEE_2009": "",
+  "BEE_2010": "",
+  "BEE_2011": "",
+  "BEE_2012": "",
+  "BEE_2013": "",
+  "BEE_2014": "",
+  "BEE_2015": "",
+  "BEE_2016": "",
+  "BEE_2017": "",
+  "BEE_2018": "",
+  "BEE_2019": ""
   }
   }
   ]
