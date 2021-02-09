@@ -94,7 +94,10 @@ const Landing = () => {
                 )}
             </ReactTooltip>
             <div className={styles.source}>
-                <small>Source: Food and Agriculture Orginization of the United Nations</small>
+                <small>
+                    Source: Food and Agriculture Organization of the United
+                    Nations.
+                </small>
             </div>
         </div>
     );
