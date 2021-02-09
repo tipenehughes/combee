@@ -1,4 +1,4 @@
-import React, { memo } from "react";
+import React, { useState, useEffect, memo } from "react";
 import {
     ComposableMap,
     ZoomableGroup,
@@ -9,21 +9,41 @@ import data from "../../beedata.json";
 import styles from "./Map.module.css";
 
 const Map = ({ content, setTooltipContent, handleSetIsClosed }) => {
+    const [dimensions, setDimensions] = useState({
+        width: window.innerWidth,
+        height: window.innerHeight,
+    });
+    const handleSetDimensions = () => {
+        setDimensions({
+            ...dimensions,
+            width: window.innerWidth,
+            height: window.innerHeight,
+        });
+    };
+    useEffect(() => {
+        window.addEventListener("resize", handleSetDimensions);
+        return () => window.removeEventListener("resize", handleSetDimensions);
+    }, []);
+
     const geoUrl = data;
-    const mapWidth = 800;
-    const mapHeight = 370;
+
     return (
-        <div className={styles.map} onMouseOver={handleSetIsClosed}>
+        <div className={styles.mapContainer} onMouseOver={handleSetIsClosed}>
             <ComposableMap
+                className={styles.map}
                 data-tip=""
-                width={mapWidth}
-                height={mapHeight}
-                projectionConfig={{ scale: 150 }}
+                width={dimensions.width}
+                height={dimensions.height}
+                projection="geoMercator"
+                projectionConfig={{
+                    scale: dimensions.width <= 1024 ? 150 : 200,
+                    rotation: [0, 0, 0],
+                }}
             >
                 <ZoomableGroup
                     translateExtent={[
                         [0, 0],
-                        [mapWidth, mapHeight],
+                        [dimensions.width, dimensions.height],
                     ]}
                 >
                     <Geographies geography={geoUrl}>
@@ -33,7 +53,6 @@ const Map = ({ content, setTooltipContent, handleSetIsClosed }) => {
                                     key={geo.rsmKey}
                                     geography={geo}
                                     onMouseEnter={() => {
-                                        console.log(geo);
                                         const {
                                             NAME,
                                             BEE_2007,

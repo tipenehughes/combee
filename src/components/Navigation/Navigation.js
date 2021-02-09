@@ -13,7 +13,6 @@ const Navigation = ({
     handleSetMenuContent,
 }) => {
     const [index, setIndex] = useState("");
-    console.log(index);
 
     const handleSetIndex = (i) => {
         return setIndex(i);
@@ -43,6 +42,7 @@ const Navigation = ({
                                 handleSetMenuContent={handleSetMenuContent}
                                 index={i}
                                 handleSetIndex={handleSetIndex}
+                                key={i}
                             />
                         );
                     })}

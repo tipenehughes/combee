@@ -12,7 +12,6 @@ const Landing = () => {
         2007: "",
         2017: "",
     });
-    console.log(content);
     const [menuContent, setMenuContent] = useState("");
 
     const handleSetIsOpen = () => {
@@ -47,8 +46,8 @@ const Landing = () => {
             />
             <ReactTooltip
                 className={styles.tooltip}
-                data-html="true"
-                multiline="true"
+                data-html={true}
+                multiline={true}
                 // type="info"
             >
                 {content.rsmKey && (
