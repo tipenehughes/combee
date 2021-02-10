@@ -10,7 +10,18 @@ const Landing = () => {
         rsmKey: "",
         name: "",
         2007: "",
+        2008: "",
+        2009: "",
+        2010: "",
+        2011: "",
+        2012: "",
+        2013: "",
+        2014: "",
+        2015: "",
+        2016: "",
         2017: "",
+        2018: "",
+        2019: "",
     });
     const [menuContent, setMenuContent] = useState("");
 
@@ -25,9 +36,37 @@ const Landing = () => {
         return setMenuContent(index);
     };
     const percentageChange = (prev, current) => {
-        return current
+        return current !== "Data Unavailable"
             ? `${Math.ceil(((current - prev) / prev) * 100)}`
             : "Data Unavailable";
+    };
+
+    const dataDisplay = () => {
+        if (content[2019]) {
+            return content[2019];
+        } else if (!content[2019] && content[2018]) {
+            return content[2018];
+        } else if (!content[2018] && content[2017]) {
+            return content[2017];
+        } else if (!content[2017] && content[2016]) {
+            return content[2016];
+        } else {
+            return "Data Unavailable";
+        }
+    };
+
+    const dateDisplay = () => {
+        if (content[2019]) {
+            return "2019";
+        } else if (!content[2019] && content[2018]) {
+            return "2018";
+        } else if (!content[2018] && content[2017]) {
+            return "2017";
+        } else if (!content[2017] && content[2016]) {
+            return "2016";
+        } else {
+            return "2019";
+        }
     };
 
     return (
@@ -48,7 +87,6 @@ const Landing = () => {
                 className={styles.tooltip}
                 data-html={true}
                 multiline={true}
-                // type="info"
             >
                 {content.rsmKey && (
                     <div>
@@ -62,11 +100,9 @@ const Landing = () => {
                             </span>
                         </p>
                         <p>
-                            Beehives in 2019:{" "}
+                            Beehives in {dateDisplay()}:{" "}
                             <span className={styles.number}>
-                                {content["2019"]
-                                    ? content["2019"]
-                                    : "Data Unavailable"}
+                                {dataDisplay()}
                             </span>
                         </p>
                         <p>
@@ -77,7 +113,7 @@ const Landing = () => {
                                     color:
                                         percentageChange(
                                             content["2007"],
-                                            content["2019"]
+                                            dataDisplay()
                                         ) >= 0
                                             ? "green"
                                             : "red",
@@ -85,7 +121,7 @@ const Landing = () => {
                             >
                                 {percentageChange(
                                     content["2007"],
-                                    content["2019"]
+                                    dataDisplay()
                                 )}
                             </span>
                         </p>

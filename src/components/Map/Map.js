@@ -1,4 +1,4 @@
-import React, { useState, useEffect, memo } from "react";
+import React, { useState, useEffect } from "react";
 import {
     ComposableMap,
     ZoomableGroup,
@@ -56,6 +56,17 @@ const Map = ({ content, setTooltipContent, handleSetIsClosed }) => {
                                         const {
                                             NAME,
                                             BEE_2007,
+                                            BEE_2008,
+                                            BEE_2009,
+                                            BEE_2010,
+                                            BEE_2011,
+                                            BEE_2012,
+                                            BEE_2013,
+                                            BEE_2014,
+                                            BEE_2015,
+                                            BEE_2016,
+                                            BEE_2017,
+                                            BEE_2018,
                                             BEE_2019,
                                         } = geo.properties;
                                         setTooltipContent({
@@ -63,6 +74,17 @@ const Map = ({ content, setTooltipContent, handleSetIsClosed }) => {
                                             rsmKey: geo.rsmKey,
                                             name: NAME,
                                             2007: BEE_2007,
+                                            2008: BEE_2008,
+                                            2009: BEE_2009,
+                                            2010: BEE_2010,
+                                            2011: BEE_2011,
+                                            2012: BEE_2012,
+                                            2013: BEE_2013,
+                                            2014: BEE_2014,
+                                            2015: BEE_2015,
+                                            2016: BEE_2016,
+                                            2017: BEE_2017,
+                                            2018: BEE_2018,
                                             2019: BEE_2019,
                                         });
                                     }}
