@@ -1,0 +1,31 @@
+.filterContainer {
+    position: absolute;
+    right: 0.5rem;
+    margin-top: 0.5rem;
+    padding: 0.5rem;
+    height: 12rem;
+    width: 11rem;
+    color: #fff;
+    background-color: #1c1c1cd0;
+    backdrop-filter: blur(2px);
+    border-radius: 5px;
+}
+
+.label {
+    display: inline-block;
+    width: 50%;
+    font-size: 0.9rem;
+}
+
+.select {
+    background-color: #ffc628;
+    font-weight: 600;
+    color: #303030;
+    border: none;
+    width: 50%;
+    margin-bottom: 0.5rem;
+}
+
+.select option {
+    font-weight: 600;
+}

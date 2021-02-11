@@ -16,3 +16,12 @@
 .number {
     font-weight: 700;
 }
+
+.tooltip {
+    pointer-events: auto !important;
+}
+
+.tooltip:hover {
+    visibility: visible !important;
+    opacity: 1 !important;
+}

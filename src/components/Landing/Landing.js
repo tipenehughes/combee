@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import Navigation from "../Navigation/Navigation";
+import Filter from "../Filter/Filter";
 import Map from "../Map/Map";
 import ReactTooltip from "react-tooltip";
 import styles from "./Landing.module.css";
@@ -23,6 +24,13 @@ const Landing = () => {
         2018: "",
         2019: "",
     });
+
+    const [dateRange, setDateRange] = useState({
+        start: 2007,
+        end: 2019,
+    });
+
+    console.log(dateRange);
     const [menuContent, setMenuContent] = useState("");
 
     const handleSetIsOpen = () => {
@@ -32,41 +40,21 @@ const Landing = () => {
         isOpen && setIsOpen(false);
     };
 
+    const handleSetDateRangeStart = (e) => {
+        setDateRange({ ...dateRange, start: e.target.value });
+    };
+
+    const handleSetDateRangeEnd = (e) => {
+        setDateRange({ ...dateRange, end: e.target.value });
+    };
+
     const handleSetMenuContent = (index) => {
         return setMenuContent(index);
     };
     const percentageChange = (prev, current) => {
-        return current !== "Data Unavailable"
+        return current !== ""
             ? `${Math.ceil(((current - prev) / prev) * 100)}`
             : "Data Unavailable";
-    };
-
-    const dataDisplay = () => {
-        if (content[2019]) {
-            return content[2019];
-        } else if (!content[2019] && content[2018]) {
-            return content[2018];
-        } else if (!content[2018] && content[2017]) {
-            return content[2017];
-        } else if (!content[2017] && content[2016]) {
-            return content[2016];
-        } else {
-            return "Data Unavailable";
-        }
-    };
-
-    const dateDisplay = () => {
-        if (content[2019]) {
-            return "2019";
-        } else if (!content[2019] && content[2018]) {
-            return "2018";
-        } else if (!content[2018] && content[2017]) {
-            return "2017";
-        } else if (!content[2017] && content[2016]) {
-            return "2016";
-        } else {
-            return "2019";
-        }
     };
 
     return (
@@ -78,6 +66,10 @@ const Landing = () => {
                 menuContent={menuContent}
                 handleSetMenuContent={handleSetMenuContent}
             />
+            <Filter
+                handleSetDateRangeStart={handleSetDateRangeStart}
+                handleSetDateRangeEnd={handleSetDateRangeEnd}
+            />
             <Map
                 content={content}
                 setTooltipContent={setContent}
@@ -86,23 +78,25 @@ const Landing = () => {
             <ReactTooltip
                 className={styles.tooltip}
                 data-html={true}
-                multiline={true}
+                delayHide={500}
             >
                 {content.rsmKey && (
                     <div>
                         <h3>{content.name}</h3>
                         <p>
-                            Beehives in 2007:{" "}
+                            Beehives in {dateRange.start}:{" "}
                             <span className={styles.number}>
-                                {content["2007"]
-                                    ? content["2007"]
+                                {content[dateRange.start] !== ""
+                                    ? content[dateRange.start]
                                     : "Data Unavailable"}
                             </span>
                         </p>
                         <p>
-                            Beehives in {dateDisplay()}:{" "}
+                            Beehives in {dateRange.end}:{" "}
                             <span className={styles.number}>
-                                {dataDisplay()}
+                                {content[dateRange.end] !== ""
+                                    ? content[dateRange.end]
+                                    : "Data Unavailable"}
                             </span>
                         </p>
                         <p>
@@ -112,16 +106,16 @@ const Landing = () => {
                                 style={{
                                     color:
                                         percentageChange(
-                                            content["2007"],
-                                            dataDisplay()
+                                            content[dateRange.start],
+                                            content[dateRange.end]
                                         ) >= 0
                                             ? "green"
                                             : "red",
                                 }}
                             >
                                 {percentageChange(
-                                    content["2007"],
-                                    dataDisplay()
+                                    content[dateRange.start],
+                                    content[dateRange.end]
                                 )}
                             </span>
                         </p>
