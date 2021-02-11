@@ -3,7 +3,7 @@
     font-size: 1rem;
     font-weight: 700;
     color: #ffc728;
-    z-index: 1;
+    z-index: 2;
     cursor: pointer;
 }
 
@@ -16,17 +16,4 @@
     background-color: #ffc728;
     border-radius: 5px;
     text-transform: uppercase;
-}
-
-.bee {
-    position: absolute;
-    top: -0.75rem;
-    left: -1rem;
-    width: 1rem;
-    height: 1rem;
-}
-
-.bee img {
-    width: 100%;
-    height: auto;
 }

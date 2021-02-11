@@ -1,12 +1,17 @@
 import React, { useState } from "react";
 import Navigation from "../Navigation/Navigation";
 import Filter from "../Filter/Filter";
+import Barchart from "../Charts/Barchart";
 import Map from "../Map/Map";
 import ReactTooltip from "react-tooltip";
 import styles from "./Landing.module.css";
 
 const Landing = () => {
     const [isOpen, setIsOpen] = useState(false);
+    const [isChart, setIsChart] = useState({
+        open: false,
+        chartType: "bar",
+    });
     const [content, setContent] = useState({
         rsmKey: "",
         name: "",
@@ -30,7 +35,6 @@ const Landing = () => {
         end: 2019,
     });
 
-    console.log(dateRange);
     const [menuContent, setMenuContent] = useState("");
 
     const handleSetIsOpen = () => {
@@ -39,6 +43,15 @@ const Landing = () => {
     const handleSetIsClosed = () => {
         isOpen && setIsOpen(false);
     };
+
+    const handleSetIsChart = (e) => {
+        setIsChart({ ...isChart, open: true, chartType: e.target.value });
+    };
+
+    const handleCloseChart = () => {
+        setIsChart({ ...isChart, open: false });
+    };
+    console.log(isChart);
 
     const handleSetDateRangeStart = (e) => {
         setDateRange({ ...dateRange, start: e.target.value });
@@ -59,6 +72,7 @@ const Landing = () => {
 
     return (
         <div className={styles.landing}>
+            {isChart.open && <Barchart content={content} isChart={isChart} />}
             <Navigation
                 handleSetIsOpen={handleSetIsOpen}
                 handleSetIsClosed={handleSetIsClosed}
@@ -69,6 +83,8 @@ const Landing = () => {
             <Filter
                 handleSetDateRangeStart={handleSetDateRangeStart}
                 handleSetDateRangeEnd={handleSetDateRangeEnd}
+                handleSetIsChart={handleSetIsChart}
+                handleCloseChart={handleCloseChart}
             />
             <Map
                 content={content}

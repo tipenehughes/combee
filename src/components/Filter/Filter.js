@@ -1,7 +1,12 @@
 import React from "react";
 import styles from "./Filter.module.css";
 
-const Filter = ({ handleSetDateRangeStart, handleSetDateRangeEnd }) => {
+const Filter = ({
+    handleSetDateRangeStart,
+    handleSetDateRangeEnd,
+    handleSetIsChart,
+    handleCloseChart,
+}) => {
     return (
         <div className={styles.filterContainer}>
             <div className={styles.form}>
@@ -15,7 +20,9 @@ const Filter = ({ handleSetDateRangeStart, handleSetDateRangeEnd }) => {
                         className={styles.select}
                         onChange={handleSetDateRangeStart}
                     >
-                        <option value={2007}>2007</option>
+                        <option value={2007} selected>
+                            2007
+                        </option>
                         <option value={2008}>2008</option>
                         <option value={2009}>2009</option>
                         <option value={2010}>2010</option>
@@ -58,6 +65,16 @@ const Filter = ({ handleSetDateRangeStart, handleSetDateRangeEnd }) => {
             </div>
             <div>
                 <h3>Visualize</h3>
+                <button onClick={handleSetIsChart} value={"bar"}>
+                    Bar Chart
+                </button>
+                <button onClick={handleSetIsChart} value={"scatter"}>
+                    Scatter Chart
+                </button>
+                <button onClick={handleSetIsChart} value={"area"}>
+                    Area Chart
+                </button>
+                <button onClick={handleCloseChart}>Close</button>
             </div>
         </div>
     );
