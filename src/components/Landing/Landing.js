@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Navigation from "../Navigation/Navigation";
 import Filter from "../Filter/Filter";
-import Barchart from "../Charts/Barchart";
+import Chart from "../Charts/Chart";
 import Map from "../Map/Map";
 import ReactTooltip from "react-tooltip";
 import styles from "./Landing.module.css";
@@ -30,6 +30,8 @@ const Landing = () => {
         2019: "",
     });
 
+    console.log(content);
+
     const [dateRange, setDateRange] = useState({
         start: 2007,
         end: 2019,
@@ -51,7 +53,6 @@ const Landing = () => {
     const handleCloseChart = () => {
         setIsChart({ ...isChart, open: false });
     };
-    console.log(isChart);
 
     const handleSetDateRangeStart = (e) => {
         setDateRange({ ...dateRange, start: e.target.value });
@@ -72,7 +73,7 @@ const Landing = () => {
 
     return (
         <div className={styles.landing}>
-            {isChart.open && <Barchart content={content} isChart={isChart} />}
+            {isChart.open && <Chart content={content} isChart={isChart} />}
             <Navigation
                 handleSetIsOpen={handleSetIsOpen}
                 handleSetIsClosed={handleSetIsClosed}
@@ -89,55 +90,58 @@ const Landing = () => {
             <Map
                 content={content}
                 setTooltipContent={setContent}
+                isChart={isChart}                
                 handleSetIsClosed={handleSetIsClosed}
             />
-            <ReactTooltip
-                className={styles.tooltip}
-                data-html={true}
-                delayHide={500}
-            >
-                {content.rsmKey && (
-                    <div>
-                        <h3>{content.name}</h3>
-                        <p>
-                            Beehives in {dateRange.start}:{" "}
-                            <span className={styles.number}>
-                                {content[dateRange.start] !== ""
-                                    ? content[dateRange.start]
-                                    : "Data Unavailable"}
-                            </span>
-                        </p>
-                        <p>
-                            Beehives in {dateRange.end}:{" "}
-                            <span className={styles.number}>
-                                {content[dateRange.end] !== ""
-                                    ? content[dateRange.end]
-                                    : "Data Unavailable"}
-                            </span>
-                        </p>
-                        <p>
-                            Percentage change :{" "}
-                            <span
-                                className={styles.number}
-                                style={{
-                                    color:
-                                        percentageChange(
-                                            content[dateRange.start],
-                                            content[dateRange.end]
-                                        ) >= 0
-                                            ? "green"
-                                            : "red",
-                                }}
-                            >
-                                {percentageChange(
-                                    content[dateRange.start],
-                                    content[dateRange.end]
-                                )}
-                            </span>
-                        </p>
-                    </div>
-                )}
-            </ReactTooltip>
+            {!isChart.open && (
+                <ReactTooltip
+                    className={styles.tooltip}
+                    data-html={true}
+                    delayHide={500}
+                >
+                    {content.rsmKey && (
+                        <div>
+                            <h3>{content.name}</h3>
+                            <p>
+                                Beehives in {dateRange.start}:{" "}
+                                <span className={styles.number}>
+                                    {content[dateRange.start] !== ""
+                                        ? content[dateRange.start]
+                                        : "Data Unavailable"}
+                                </span>
+                            </p>
+                            <p>
+                                Beehives in {dateRange.end}:{" "}
+                                <span className={styles.number}>
+                                    {content[dateRange.end] !== ""
+                                        ? content[dateRange.end]
+                                        : "Data Unavailable"}
+                                </span>
+                            </p>
+                            <p>
+                                Percentage change :{" "}
+                                <span
+                                    className={styles.number}
+                                    style={{
+                                        color:
+                                            percentageChange(
+                                                content[dateRange.start],
+                                                content[dateRange.end]
+                                            ) >= 0
+                                                ? "green"
+                                                : "red",
+                                    }}
+                                >
+                                    {percentageChange(
+                                        content[dateRange.start],
+                                        content[dateRange.end]
+                                    )}
+                                </span>
+                            </p>
+                        </div>
+                    )}
+                </ReactTooltip>
+            )}
             <div className={styles.source}>
                 <small>
                     Source: Food and Agriculture Organization of the United

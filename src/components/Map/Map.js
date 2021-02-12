@@ -8,7 +8,7 @@ import {
 import data from "../../beedata.json";
 import styles from "./Map.module.css";
 
-const Map = ({ content, setTooltipContent, handleSetIsClosed }) => {
+const Map = ({ content, setTooltipContent, handleSetIsClosed, isChart }) => {
     const [dimensions, setDimensions] = useState({
         width: window.innerWidth,
         height: window.innerHeight,
@@ -89,7 +89,7 @@ const Map = ({ content, setTooltipContent, handleSetIsClosed }) => {
                                         });
                                     }}
                                     onMouseLeave={() => {
-                                        setTooltipContent("");
+                                        !isChart.open && setTooltipContent("");
                                     }}
                                     style={{
                                         default: {
