@@ -1,13 +1,13 @@
-.barchartContainer {
+.chartContainer {
     display: grid;
     place-items: center;
     position: absolute;
     width: 50%;
     height: 60%;
     background-color: #ffc628;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    left: 25%;
+    top: 20%;
+    transform: (-50%);
     resize: both;
     overflow: hidden;
 }
@@ -16,5 +16,14 @@
     width: 100%;
     text-align: center;
     color: #303030;
+}
+
+.close {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    font-size: 1.3rem;
+    color: #303030;
+    cursor: pointer;
 }
 

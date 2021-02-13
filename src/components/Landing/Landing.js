@@ -73,7 +73,13 @@ const Landing = () => {
 
     return (
         <div className={styles.landing}>
-            {isChart.open && <Chart content={content} isChart={isChart} />}
+            {isChart.open && (
+                <Chart
+                    content={content}
+                    isChart={isChart}
+                    handleCloseChart={handleCloseChart}
+                />
+            )}
             <Navigation
                 handleSetIsOpen={handleSetIsOpen}
                 handleSetIsClosed={handleSetIsClosed}
@@ -85,12 +91,11 @@ const Landing = () => {
                 handleSetDateRangeStart={handleSetDateRangeStart}
                 handleSetDateRangeEnd={handleSetDateRangeEnd}
                 handleSetIsChart={handleSetIsChart}
-                handleCloseChart={handleCloseChart}
             />
             <Map
                 content={content}
                 setTooltipContent={setContent}
-                isChart={isChart}                
+                isChart={isChart}
                 handleSetIsClosed={handleSetIsClosed}
             />
             {!isChart.open && (

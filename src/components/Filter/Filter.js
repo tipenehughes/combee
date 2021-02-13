@@ -1,11 +1,15 @@
 import React from "react";
+import {
+    AiOutlineBarChart,
+    AiOutlineAreaChart,
+    AiOutlineDotChart,
+} from "react-icons/ai";
 import styles from "./Filter.module.css";
 
 const Filter = ({
     handleSetDateRangeStart,
     handleSetDateRangeEnd,
     handleSetIsChart,
-    handleCloseChart,
 }) => {
     return (
         <div className={styles.filterContainer}>
@@ -63,18 +67,31 @@ const Filter = ({
                     </select>
                 </form>
             </div>
-            <div>
+            <div className={styles.chartFilter}>
                 <h3>Visualize</h3>
-                <button onClick={handleSetIsChart} value={"bar"}>
-                    Bar Chart
-                </button>
-                <button onClick={handleSetIsChart} value={"scatter"}>
-                    Scatter Chart
-                </button>
-                <button onClick={handleSetIsChart} value={"area"}>
-                    Area Chart
-                </button>
-                <button onClick={handleCloseChart}>Close</button>
+                <div className={styles.buttonContainer}>
+                    <button
+                        className={styles.iconButton}
+                        onClick={handleSetIsChart}
+                        value={"bar"}
+                    >
+                        <AiOutlineBarChart className={styles.icon} />
+                    </button>
+                    <button
+                        className={styles.iconButton}
+                        onClick={handleSetIsChart}
+                        value={"scatter"}
+                    >
+                        <AiOutlineDotChart className={styles.icon} />
+                    </button>
+                    <button
+                        className={styles.iconButton}
+                        onClick={handleSetIsChart}
+                        value={"area"}
+                    >
+                        <AiOutlineAreaChart className={styles.icon} />
+                    </button>
+                </div>
             </div>
         </div>
     );

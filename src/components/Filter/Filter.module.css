@@ -29,3 +29,33 @@
 .select option {
     font-weight: 600;
 }
+
+.chartFilter h3 {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    margin-bottom: 0.3rem;
+}
+
+.buttonContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.iconButton {
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    background-color: #ffc628;
+    cursor: pointer;
+}
+
+.icon {
+    pointer-events: none;
+    font-size: 2rem;
+    height: 100%;
+    color: #2861ff;
+}
