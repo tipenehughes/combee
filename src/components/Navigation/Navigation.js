@@ -21,7 +21,7 @@ const Navigation = ({
     return (
         <>
             <div className={styles.navBar}>
-                <div className={styles.navFlexItem}>
+                <div className={styles.navFlexItem} onClick={handleSetIsClosed}>
                     <div
                         className={styles.logo}
                         style={{ color: isOpen && "#303030" }}

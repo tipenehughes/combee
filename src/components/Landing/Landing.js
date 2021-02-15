@@ -30,8 +30,6 @@ const Landing = () => {
         2019: "",
     });
 
-    console.log(content);
-
     const [dateRange, setDateRange] = useState({
         start: 2007,
         end: 2019,

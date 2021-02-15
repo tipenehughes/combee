@@ -10,5 +10,13 @@
 body {
     font-family: "Open Sans", sans-serif;
     overflow: hidden;
-    /* font-family: "Yusei Magic", sans-serif; */
+}
+
+@media only screen and (max-width: 768px) {
+    html {
+        font-size: 14px;
+    }
+    body {
+        overflow: visible;
+    }
 }

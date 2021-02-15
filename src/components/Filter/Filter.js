@@ -15,18 +15,17 @@ const Filter = ({
         <div className={styles.filterContainer}>
             <div className={styles.form}>
                 <form action="">
-                    <label for="start" className={styles.label}>
+                    <label htmlFor="start" className={styles.label}>
                         Start Year:{" "}
                     </label>
                     <select
                         name="start"
                         id="start"
+                        defaultValue={2007}
                         className={styles.select}
                         onChange={handleSetDateRangeStart}
                     >
-                        <option value={2007} selected>
-                            2007
-                        </option>
+                        <option value={2007}>2007</option>
                         <option value={2008}>2008</option>
                         <option value={2009}>2009</option>
                         <option value={2010}>2010</option>
@@ -40,12 +39,13 @@ const Filter = ({
                         <option value={2018}>2018</option>
                         <option value={2019}>2019</option>
                     </select>
-                    <label for="end" className={styles.label}>
+                    <label htmlFor="end" className={styles.label}>
                         End Year:{" "}
                     </label>
                     <select
                         name="end"
                         id="end"
+                        defaultValue={2019}
                         className={styles.select}
                         onChange={handleSetDateRangeEnd}
                     >
@@ -61,9 +61,7 @@ const Filter = ({
                         <option value={2016}>2016</option>
                         <option value={2017}>2017</option>
                         <option value={2018}>2018</option>
-                        <option value={2019} selected>
-                            2019
-                        </option>
+                        <option value={2019}>2019</option>
                     </select>
                 </form>
             </div>
