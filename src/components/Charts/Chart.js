@@ -84,6 +84,16 @@ const Chart = ({ content, isChart, handleCloseChart }) => {
                 transition={{ duration: 0.5 }}
                 className={styles.chartContainer}
             >
+                {!content.name && (
+                    <div className={styles.welcomeContainer}>
+                        <h2>Choose a country to get started!</h2>
+                    </div>
+                )}
+                {content.name && !content[2007] && (
+                    <div className={styles.welcomeContainer}>
+                        <h2>Sorry, it looks like this data is unavailable..</h2>
+                    </div>
+                )}
                 <h2 className={styles.chartCountry}>{content.name}</h2>
                 {isChart.chartType === "scatter" && (
                     <ResponsiveContainer width="95%" height="95%">

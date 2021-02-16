@@ -27,6 +27,25 @@ const Map = ({ content, setTooltipContent, handleSetIsClosed, isChart }) => {
 
     const geoUrl = data;
 
+    const translate = () => {
+        if (dimensions.width > 768) {
+            return [
+                [0, 0],
+                [dimensions.width, dimensions.height],
+            ];
+        } else if (dimensions.width > 400) {
+            return [
+                [-85, 0],
+                [dimensions.width + 85, dimensions.height],
+            ];
+        } else if (dimensions.width < 400) {
+            return [
+                [-280, 0],
+                [dimensions.width + 280, dimensions.height],
+            ];
+        }
+    };
+
     return (
         <div className={styles.mapContainer} onMouseOver={handleSetIsClosed}>
             <ComposableMap
@@ -40,12 +59,7 @@ const Map = ({ content, setTooltipContent, handleSetIsClosed, isChart }) => {
                     rotation: [0, 0, 0],
                 }}
             >
-                <ZoomableGroup
-                    translateExtent={[
-                        [0, 0],
-                        [dimensions.width, dimensions.height],
-                    ]}
-                >
+                <ZoomableGroup translateExtent={translate()}>
                     <Geographies geography={geoUrl}>
                         {({ geographies }) =>
                             geographies.map((geo) => (
