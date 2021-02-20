@@ -3,19 +3,19 @@ import styles from "./NavigationLink.module.css";
 
 const NavigationLink = ({
     link,
-    isOpen,
-    handleSetIsOpen,
     handleSetMenuContent,
     handleSetIndex,
     index,
+    menuOpen,
+    menuDispatch,
 }) => {
     return (
         <div
             className={styles.navItem}
             key={index}
-            style={{ color: isOpen && "#303030" }}
+            style={{ color: menuOpen && "#303030" }}
             onMouseEnter={() => {
-                handleSetIsOpen();
+                menuDispatch({ type: "open" });
                 handleSetMenuContent(index);
                 handleSetIndex(index);
             }}

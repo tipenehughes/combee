@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useReducer } from "react";
 import Navigation from "../Navigation/Navigation";
 import Filter from "../Filter/Filter";
 import Chart from "../Charts/Chart";
@@ -7,7 +7,6 @@ import ReactTooltip from "react-tooltip";
 import styles from "./Landing.module.css";
 
 const Landing = () => {
-    const [isOpen, setIsOpen] = useState(false);
     const [isChart, setIsChart] = useState({
         open: false,
         chartType: "bar",
@@ -35,14 +34,21 @@ const Landing = () => {
         end: 2019,
     });
 
-    const [menuContent, setMenuContent] = useState("");
+    // Reducer to open and close navigation menu
+    const isOpen = false;
+    function isOpenReducer(state, action) {
+        switch (action.type) {
+            case "open":
+                return true;
+            case "close":
+                return false;
+            default:
+                return state;
+        }
+    }
+    const [menuOpen, menuDispatch] = useReducer(isOpenReducer, isOpen);
 
-    const handleSetIsOpen = () => {
-        !isOpen && setIsOpen(true);
-    };
-    const handleSetIsClosed = () => {
-        isOpen && setIsOpen(false);
-    };
+    const [menuContent, setMenuContent] = useState("");
 
     const handleSetIsChart = (e) => {
         setIsChart({ ...isChart, open: true, chartType: e.target.value });
@@ -79,9 +85,8 @@ const Landing = () => {
                 />
             )}
             <Navigation
-                handleSetIsOpen={handleSetIsOpen}
-                handleSetIsClosed={handleSetIsClosed}
-                isOpen={isOpen}
+                menuDispatch={menuDispatch}
+                menuOpen={menuOpen}
                 menuContent={menuContent}
                 handleSetMenuContent={handleSetMenuContent}
             />
@@ -91,10 +96,10 @@ const Landing = () => {
                 handleSetIsChart={handleSetIsChart}
             />
             <Map
+                menuDispatch={menuDispatch}
                 content={content}
                 setTooltipContent={setContent}
                 isChart={isChart}
-                handleSetIsClosed={handleSetIsClosed}
             />
             {!isChart.open && (
                 <ReactTooltip

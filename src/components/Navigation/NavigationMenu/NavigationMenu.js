@@ -5,7 +5,7 @@ import NavigationMenuData from "./NavigationMenuData";
 
 import styles from "./NavigationMenu.module.css";
 
-const NavigationMenu = ({ menuContent, index }) => {
+const NavigationMenu = ({ menuContent }) => {
     const menuVariants = {
         hidden: {
             y: -200,

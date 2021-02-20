@@ -46,6 +46,7 @@ const Chart = ({ content, isChart, handleCloseChart }) => {
         {
             name: "2013",
             Beehives: content[2013],
+            "YoY Change": content[2013] - content[2012],
         },
         {
             name: "2014",
@@ -62,7 +63,6 @@ const Chart = ({ content, isChart, handleCloseChart }) => {
         {
             name: "2017",
             Beehives: content[2017],
-            amt: 2100,
         },
         {
             name: "2018",
