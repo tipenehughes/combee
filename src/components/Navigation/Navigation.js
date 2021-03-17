@@ -69,7 +69,11 @@ const Navigation = ({
                 </div>
             </div>
             <AnimatePresence>
-                {menuOpen && <NavigationMenu menuContent={menuContent} />}
+                {menuOpen && (
+                    <NavigationMenu
+                        menuContent={menuContent}                        
+                    />
+                )}
                 {donateOpen && <DonateLink menuOpen={menuOpen} />}
             </AnimatePresence>
         </>

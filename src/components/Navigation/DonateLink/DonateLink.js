@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
-import styles from "../NavigationMenu/NavigationMenu.module.css";
+import styles from "./DonateLink.module.css";
 
 import tbc from "../../../assets/img/brandLogos/tbc.png";
 import foe from "../../../assets/img/brandLogos/foe.png";
@@ -39,22 +39,46 @@ const DonateLink = ({ menuOpen }) => {
             <div className={styles.menuContainer}>
                 <div className={styles.menuItem}>
                     <div className={styles.imageContainer}>
-                        <img src={tbc} alt="" />
+                        <a
+                            href="https://thebeeconservancy.org/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            <img src={tbc} alt="" />
+                        </a>
                     </div>
                 </div>
                 <div className={styles.menuItem}>
                     <div className={styles.imageContainer}>
-                        <img src={foe} alt="" />
+                        <a
+                            href="https://foe.org/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            <img src={foe} alt="" />
+                        </a>
                     </div>
                 </div>
                 <div className={styles.menuItem}>
                     <div className={styles.imageContainer}>
-                        <img src={pp} alt="" />
+                        <a
+                            href="https://www.pollinator.org/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            <img src={pp} alt="" />
+                        </a>
                     </div>
                 </div>
                 <div className={styles.menuItem}>
                     <div className={styles.imageContainer}>
-                        <img src={ohb} alt="" />
+                        <a
+                            href="https://www.operationhoneybee.com/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            <img src={ohb} alt="" />
+                        </a>
                     </div>
                 </div>
             </div>
