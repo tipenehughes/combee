@@ -50,6 +50,16 @@ const Landing = () => {
 
     const [menuContent, setMenuContent] = useState("");
 
+    const [donateOpen, setDonateOpen] = useState(false);
+
+    const handleSetDonateOpen = () => {
+        return setDonateOpen(true);
+    };
+
+    const handleSetDonateClosed = () => {
+        return setDonateOpen(false);
+    };
+
     const handleSetIsChart = (e) => {
         setIsChart({ ...isChart, open: true, chartType: e.target.value });
     };
@@ -89,6 +99,9 @@ const Landing = () => {
                 menuOpen={menuOpen}
                 menuContent={menuContent}
                 handleSetMenuContent={handleSetMenuContent}
+                donateOpen={donateOpen}
+                handleSetDonateOpen={handleSetDonateOpen}
+                handleSetDonateClosed={handleSetDonateClosed}
             />
             <Filter
                 handleSetDateRangeStart={handleSetDateRangeStart}
@@ -97,6 +110,7 @@ const Landing = () => {
             />
             <Map
                 menuDispatch={menuDispatch}
+                handleSetDonateClosed={handleSetDonateClosed}
                 content={content}
                 setTooltipContent={setContent}
                 isChart={isChart}

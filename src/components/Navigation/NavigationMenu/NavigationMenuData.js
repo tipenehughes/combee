@@ -6,11 +6,6 @@ import item4 from "../../../assets/img/menuItems/Asset 1.svg";
 import item5 from "../../../assets/img/menuItems/Asset 3.svg";
 import item6 from "../../../assets/img/menuItems/Asset 9.svg";
 
-import tbc from "../../../assets/img/brandLogos/tbc.png";
-import foe from "../../../assets/img/brandLogos/foe.png";
-import pp from "../../../assets/img/brandLogos/pp.png";
-import ohb from "../../../assets/img/brandLogos/ohb.png";
-
 const NavigationMenuData = [
     {
         item1: {
@@ -62,20 +57,6 @@ const NavigationMenuData = [
                 "Inspire the next generation of eco citizens with guides, lessons, and activities to get them buzzed about bees!",
             p2:
                 "Educators can find plenty of free resources to bring nature and ecology into the classroom — and the hearts of children everywhere.",
-        },
-    },
-    {
-        item1: {
-            img: tbc,
-        },
-        item2: {
-            img: foe,
-        },
-        item3: {
-            img: pp,
-        },
-        item4: {
-            img: ohb,
         },
     },
 ];

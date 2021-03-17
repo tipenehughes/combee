@@ -7,13 +7,4 @@
     cursor: pointer;
 }
 
-.navItem:last-of-type {
-    display: grid;
-    place-items: center;
-    color: #303030;
-    height: 2rem;
-    width: 6rem;
-    background-color: #ffc728;
-    border-radius: 5px;
-    text-transform: uppercase;
-}
+

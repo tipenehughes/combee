@@ -8,7 +8,13 @@ import {
 import data from "../../beedata.json";
 import styles from "./Map.module.css";
 
-const Map = ({ content, setTooltipContent, menuDispatch, isChart }) => {
+const Map = ({
+    content,
+    setTooltipContent,
+    menuDispatch,
+    isChart,
+    handleSetDonateClosed,
+}) => {
     const [dimensions, setDimensions] = useState({
         width: window.innerWidth,
         height: window.innerHeight,
@@ -51,6 +57,7 @@ const Map = ({ content, setTooltipContent, menuDispatch, isChart }) => {
             className={styles.mapContainer}
             onMouseOver={() => {
                 menuDispatch({ type: "close" });
+                handleSetDonateClosed();
             }}
         >
             <ComposableMap

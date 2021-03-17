@@ -7,17 +7,20 @@ const NavigationLink = ({
     handleSetIndex,
     index,
     menuOpen,
+    donateOpen,
     menuDispatch,
+    handleSetDonateClosed,
 }) => {
     return (
         <div
             className={styles.navItem}
             key={index}
-            style={{ color: menuOpen && "#303030" }}
+            style={{ color: menuOpen || donateOpen ? "#303030" : undefined }}
             onMouseEnter={() => {
                 menuDispatch({ type: "open" });
                 handleSetMenuContent(index);
                 handleSetIndex(index);
+                handleSetDonateClosed();
             }}
         >
             <p>{link}</p>
